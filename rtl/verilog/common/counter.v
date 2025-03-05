@@ -34,8 +34,8 @@ module counter (
     output wire qn
     );
 
-    reg  master = 1'b0;
-    reg  slave  = 1'b0;
+    reg  master;
+    reg  slave;
     always @(posedge sysclk) begin
         if (step_a_in)
             master <= ~slave;

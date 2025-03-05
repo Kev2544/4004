@@ -203,26 +203,26 @@ module i4002_tb;
         data_out = ip[3:0];
         data_dir = 1'b1;
     end
-    endtask : task_a12
+    endtask 
 
     task task_a22();
     begin
         data_out = ip[7:4];
     end
-    endtask : task_a22
+    endtask 
 
     task task_a32();
     begin
         data_out = ip[11:8];
         cm = 1'b1;
     end
-    endtask : task_a32
+    endtask 
 
     task task_m12();
     begin
         data_out = rom_data[7:4];
     end
-    endtask : task_m12
+    endtask 
 
     task task_m22();
     begin
@@ -232,7 +232,7 @@ module i4002_tb;
             ip = ip + 'd1;
         end
     end
-    endtask : task_m22
+    endtask 
 
     task task_x12();
     begin
@@ -240,7 +240,7 @@ module i4002_tb;
         if ({opr, opa} == 8'hFF)
             $stop();
     end
-    endtask : task_x12
+    endtask 
 
     task task_x22();
     begin
@@ -255,7 +255,7 @@ module i4002_tb;
             data_dir = 1'b0;
         end
     end
-    endtask : task_x22
+    endtask 
 
     task task_x32();
     begin
@@ -263,7 +263,7 @@ module i4002_tb;
             data_out = char_num;
         end
     end
-    endtask : task_x32
+    endtask 
 
 
 endmodule

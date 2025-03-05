@@ -89,10 +89,10 @@ module i4002 #(
     wire    rdx = io & (opa[3:2] == 2'b11);
 
     // Capture the SRC address during the X22/X32 subcycles
-    reg         ram_sel = 1'b0;
-    reg         src_ram_sel = 1'b0;
-    reg  [1:0]  reg_num = 2'b00;
-    reg  [3:0]  char_num = 4'b0000;
+    reg         ram_sel;
+    reg         src_ram_sel;
+    reg  [1:0]  reg_num;
+    reg  [3:0]  char_num;
     always @(posedge sysclk) begin
         if (reset) begin
             ram_sel = 1'b0;
@@ -173,8 +173,8 @@ module i4002 #(
     // signals, preventing data bus values from being written during
     // any erroneous write operations.
     //
-    reg  [4:0]  rfsh_addr = 5'd0;
-    reg  [4:0]  rfsh_next = 5'd0;
+    reg  [4:0]  rfsh_addr;
+    reg  [4:0]  rfsh_next;
     always @(posedge sysclk) begin
         if (m12)
             rfsh_addr <= rfsh_next;

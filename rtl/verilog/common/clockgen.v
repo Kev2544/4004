@@ -63,7 +63,7 @@ module clockgen #(
 
     // Divide the system clock to produce basic machine cycle
     localparam  [W-1:0] CLOCKDIV_MAX    = CMAX;
-    reg         [W-1:0] clockdiv        = 1'd0;
+    reg         [W-1:0] clockdiv;
     always @(posedge sysclk) begin
         clockdiv <= (clockdiv == CLOCKDIV_MAX) ? 1'd0 : (clockdiv + 1'd1);
     end

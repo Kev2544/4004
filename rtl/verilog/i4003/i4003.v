@@ -41,8 +41,8 @@ module i4003 #(
 
     localparam  W = clog2(LATCH_DELAY_CY);
 
-    reg          cp_delayed = 1'b0;
-    reg  [W-1:0] cp_delay = 0;
+    reg          cp_delayed;
+    reg  [W-1:0] cp_delay;
     wire         cp_edge = (cp_delay == LATCH_DELAY_CY[W-1:0]);
     always @(posedge sysclk) begin
         if (cp == cp_delayed) begin
@@ -59,7 +59,7 @@ module i4003 #(
         end
     end
 
-    reg  [9:0]  shifter = 10'h000;
+    reg  [9:0]  shifter;
     always @(posedge sysclk) begin
         if (cp_edge & cp) begin
             shifter <= {shifter[8:0], serial_in};

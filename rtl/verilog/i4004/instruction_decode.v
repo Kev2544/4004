@@ -92,14 +92,14 @@ module instruction_decode(
     assign  sc_m22_clk2 = sc & m22 & clk2;
 
     // Latch the first 4 bits of the opcode
-    reg [3:0] opr = 4'b0000;
+    reg [3:0] opr;
     always @(posedge sysclk) begin
         if (sc_m12_clk2)
             opr <= data;
     end
 
     // Latch the second 4 bits of the opcode
-    reg [3:0] opa = 4'b0000;
+    reg [3:0] opa;
     always @(posedge sysclk) begin
         if (sc_m22_clk2)
             opa <= data;
@@ -187,9 +187,9 @@ module instruction_decode(
     assign cn_n = ~n0397;
 
     // The Single-Cycle Flip-Flop
-    reg  n0343 = 1'b0;
+    reg  n0343;
     wire n0368 = ~((sc & (fin_fim | jcn_isz | jun_jms) & x32) | (n0343 & ~x32));
-    reg  n0362 = 1'b1;
+    reg  n0362;
     always @(posedge sysclk) begin
         if (clk2)
             n0362 <= n0368;
