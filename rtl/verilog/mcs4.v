@@ -49,8 +49,8 @@ module mcs4(
     // localparam SYSCLK_TCY = 20;     // 50 MHz Oscillator period in ns
 
 	// Instantiate the 2-phase clock generator
-    wire	clk1_pad,
-    wire	clk2_pad,
+    wire	clk1_pad;
+    wire	clk2_pad;
 	
 	clockgen #(
         .SYSCLK_TCY (SYSCLK_TCY)
