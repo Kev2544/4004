@@ -113,7 +113,8 @@ module mcs4(
 
     // Instantiate the Unit Under Test (UUT)
     i4004 i4004 (
-        .clk1_pad(clk1_pad),
+        .sysclk(sysclk),
+		.clk1_pad(clk1_pad),
         .clk2_pad(clk2_pad),
         .poc_pad(poc_pad),
         .test_pad(test_pad),
