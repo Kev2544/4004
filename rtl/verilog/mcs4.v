@@ -126,7 +126,8 @@ module mcs4(
     );
 
     // Simplify access to internal registers
-    wire  [3:0] acc  = i4004.alu_board.acc;
+/*
+	wire  [3:0] acc  = i4004.alu_board.acc;
     wire        cy   = i4004.alu_board.cy;
 
 	wire  [7:0] r0r1 = i4004.sp_board.dram_array[0];
@@ -143,5 +144,5 @@ module mcs4(
     wire [11:0] ip2  = i4004.ip_board.dram_array[2];
     wire [11:0] ip3  = i4004.ip_board.dram_array[3];
     wire  [1:0] ptr  = i4004.ip_board.addr_ptr;
-
+*/
 endmodule
