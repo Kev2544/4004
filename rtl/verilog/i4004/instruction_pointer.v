@@ -200,14 +200,15 @@ module instruction_pointer (
     // Manage the data output mux
     reg   [3:0] dout;
     always @(*) begin
-        (* PARALLEL_CASE *)
-        case (1'b1)
-            radb0:      dout = dram_temp[ 3:0];
-            radb1:      dout = dram_temp[ 7:4];
-            radb2:      dout = dram_temp[11:8];
-            default:    dout = 4'bzzzz;
-        endcase
-    end
+        if (radb0)
+            dout = dram_temp[3:0];
+        else if (radb1)
+            dout = dram_temp[7:4];
+        else if (radb2)
+            dout = dram_temp[11:8];
+        else
+            dout = 4'bzzzz; // Default high-impedance state
+        end
     assign data = dout;
 
     // Data In mux and incrementer

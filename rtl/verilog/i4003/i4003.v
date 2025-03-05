@@ -32,9 +32,9 @@ module i4003 #(
     output reg          serial_out
     );
 
-    initial begin
+/*    initial begin
         serial_out = 1'b0;
-    end
+    end */
 
     localparam  LATCH_DELAY_NS = 250;
     localparam  LATCH_DELAY_CY = nstocy(LATCH_DELAY_NS);

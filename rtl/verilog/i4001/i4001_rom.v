@@ -34,11 +34,11 @@ module i4001_rom #(
     output reg  [ 7:0]  rom_data
     );
 
-    (* rom_style="block" *)
+//    (* rom_style="block" *)
     reg [7:0]   rom_array [0:ROM_SIZE-1];
-    initial begin
-        $readmemh (ROM_FILE, rom_array);
-    end
+//    initial begin
+//        $readmemh (ROM_FILE, rom_array);
+//    end
 
     wire [11:0] array_addr = {rom_addr[11:8] - ROM_NUMBER,
                               rom_addr[ 7:0]};

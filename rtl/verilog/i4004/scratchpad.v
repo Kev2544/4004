@@ -164,12 +164,12 @@ module scratchpad (
     // Manage the data output mux
     reg   [3:0] dout;
     always @* begin
-        (* PARALLEL_CASE *)
-        case (1'b1)
-            rrab0:      dout = dram_temp[ 7:4];
-            rrab1:      dout = dram_temp[ 3:0];
-            default:    dout = 4'bzzzz;
-        endcase
+        if (rrab0)
+            dout = dram_temp[7:4];
+        else if (rrab1)
+            dout = dram_temp[3:0];
+        else
+            dout = 4'bzzzz; // Default high-impedance state
     end
     assign data = dout;
 

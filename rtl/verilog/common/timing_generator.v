@@ -87,24 +87,24 @@ module timing_generator (
     // This is self-initializing in hardware, but
     // initialization is required for simulation to
     // avoid endlessly propagating X states
-    initial begin
-        a11 = 1'b0;
-        a12 = 1'b0;
-        a21 = 1'b0;
-        a22 = 1'b0;
-        a31 = 1'b0;
-        a32 = 1'b0;
-        m11 = 1'b0;
-        m12 = 1'b0;
-        m21 = 1'b0;
-        m22 = 1'b0;
-        x11 = 1'b0;
-        x12 = 1'b0;
-        x21 = 1'b0;
-        x22 = 1'b0;
-        x31 = 1'b0;
-        x32 = 1'b0;
-        sync = 1'b0;
-    end
+//    initial begin
+//        a11 = 1'b0;
+//        a12 = 1'b0;
+//        a21 = 1'b0;
+//        a22 = 1'b0;
+//        a31 = 1'b0;
+//        a32 = 1'b0;
+//        m11 = 1'b0;
+//        m12 = 1'b0;
+//        m21 = 1'b0;
+//        m22 = 1'b0;
+//        x11 = 1'b0;
+//        x12 = 1'b0;
+//        x21 = 1'b0;
+//        x22 = 1'b0;
+//        x31 = 1'b0;
+//        x32 = 1'b0;
+//        sync = 1'b0;
+//    end
 
 endmodule
