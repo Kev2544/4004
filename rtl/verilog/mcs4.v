@@ -61,7 +61,6 @@ module mcs4(
     );
 
     // Instantiate a 4001 ROM chip
-    instruction_decode
 	wire [11:0] rom_addr;
     wire [ 7:0] rom_data;
     
