@@ -31,8 +31,6 @@ module mcs4(
     input	wire	poc_pad,
     input	wire	test_pad,
     input	wire	clear_pad,
-    input	wire	clk1_pad,
-    input	wire	clk2_pad,
 
     // Outputs
     output	wire        cmrom_pad,
@@ -51,6 +49,9 @@ module mcs4(
     // localparam SYSCLK_TCY = 20;     // 50 MHz Oscillator period in ns
 
 	// Instantiate the 2-phase clock generator
+    wire	clk1_pad,
+    wire	clk2_pad,
+	
 	clockgen #(
         .SYSCLK_TCY (SYSCLK_TCY)
     ) clockgen (
@@ -60,7 +61,8 @@ module mcs4(
     );
 
     // Instantiate a 4001 ROM chip
-    wire [11:0] rom_addr;
+    instruction_decode
+	wire [11:0] rom_addr;
     wire [ 7:0] rom_data;
     
 	i4001 #(
@@ -89,7 +91,7 @@ module mcs4(
     );
 
     // Instantiate a 4002 RAM chip
-    wire [3:0]  oport;
+    //wire [3:0]  oport;
     
 	i4002 ram_0 (
         .sysclk         (sysclk),
@@ -99,7 +101,7 @@ module mcs4(
         .reset          (poc_pad),
         .cm             (cmram0_pad),
         .data           (data_pad),
-        .oport          (oport),
+        .oport          (/*oport*/),
         .ram0_addr2     (5'h00),
         .ram0_data2_out (),
         .ram1_addr2     (5'h00),
