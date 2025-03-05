@@ -2,17 +2,15 @@
 `default_nettype none
 ////////////////////////////////////////////////////////////////////////
 //
-// MCS-4 i4004 CPU testbench
+// MCS-4 chip family 
 //
-// This module is a testbench for the i4004 and related modules.
+// This module is a top level for the full MCS-4 chip family
+// implementation as a single unit
 //
-// This testbench instantiates an i4004 CPU module, i4001 and
-// i4001_rom ROM modules, and an i4002 RAM module, so that the
-// simulation can be compared with that of Lagos Kintle's software
-// emulator.
+// This top level instantiates an i4004 CPU module, i4001 and
+// i4001_rom ROM modules, an i4002 RAM module, and an i4003 Shift
+// Register module for a full system FPGA emulation
 //
-// This file is part of the MCS-4 project hosted at OpenCores:
-//      http://www.opencores.org/cores/mcs-4/
 //
 // Copyright © 2021 by Reece Pollack <rrpollack@opencores.org>
 //
@@ -27,9 +25,6 @@
 ////////////////////////////////////////////////////////////////////////
 
 module mcs4(
-
-    localparam SYSCLK_TCY = 50;     // 20 MHz Oscillator period in ns
-    // localparam SYSCLK_TCY = 20;     // 50 MHz Oscillator period in ns
 
     // Inputs
     input	wire	sysclk,
@@ -52,8 +47,11 @@ module mcs4(
     inout	wire [3:0]  io_pad
 	);
 	
-    // Instantiate the 2-phase clock generator
-    clockgen #(
+    localparam SYSCLK_TCY = 50;     // 20 MHz Oscillator period in ns
+    // localparam SYSCLK_TCY = 20;     // 50 MHz Oscillator period in ns
+
+	// Instantiate the 2-phase clock generator
+	clockgen #(
         .SYSCLK_TCY (SYSCLK_TCY)
     ) clockgen (
         .sysclk     (sysclk),
