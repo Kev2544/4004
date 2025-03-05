@@ -23,14 +23,14 @@
 ////////////////////////////////////////////////////////////////////////
 
 module clockgen #(
-    parameter SYSCLK_TCY    = 20,   // System clock cycle time in nanoseconds
-    parameter EXT_CLK_PROP  = 0     // External clock propagation delay in sysclk cycles
+    parameter SYSCLK_TCY    = 20//,   // System clock cycle time in nanoseconds
+//    parameter EXT_CLK_PROP  = 0     // External clock propagation delay in sysclk cycles
     ) (
     input  wire sysclk,
     output reg  clk1,
-    output reg  clk2,
-    output reg  clk1_ext,
-    output reg  clk2_ext
+    output reg  clk2//,
+//    output reg  clk1_ext,
+//    output reg  clk2_ext
     );
 
     //
@@ -95,7 +95,7 @@ module clockgen #(
     // clock driver chip to the reconstructed i4004 CPU circuitry. To match
     // the timings, this module also provides advanced clock outputs.
     //
-    localparam  [W-1:0] CLK1_EXT_START  = CLK1_START - EXT_CLK_PROP,
+/*    localparam  [W-1:0] CLK1_EXT_START  = CLK1_START - EXT_CLK_PROP,
                         CLK1_EXT_END    = CLK1_END   - EXT_CLK_PROP,
                         CLK2_EXT_START  = CLK2_START - EXT_CLK_PROP,
                         CLK2_EXT_END    = CLK2_END   - EXT_CLK_PROP;
@@ -113,7 +113,7 @@ module clockgen #(
             CLK2_EXT_END:   clk2_ext <= 1'b0;
         endcase
     end
-
+*/
 `include "functions.vh"
 
 endmodule
