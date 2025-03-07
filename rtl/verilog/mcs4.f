@@ -13,3 +13,4 @@
 ./i4004/instruction_pointer.v
 ./i4004/scratchpad.v
 ./i4004/timing_io.v
+./mcs4.v

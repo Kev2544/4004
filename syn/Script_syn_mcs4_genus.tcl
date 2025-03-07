@@ -17,7 +17,7 @@ puts "Hostname : [info hostname]"
 ##############################################################################
 
 
-set DESIGN i4004
+set DESIGN mcs4
 set Timing_Libs_Path /CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/timing/
 set LEF_Libs_Path /CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/lef/ 
 
@@ -39,8 +39,8 @@ set QRC_TECH_FILE {/CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/qrc/qx
 ##set MODUS_WORKDIR <MODUS work directory>
 
 set_db init_lib_search_path "$Timing_Libs_Path $LEF_Libs_Path"
-set_db / .script_search_path {../syn} 
-set_db / .init_hdl_search_path {../rtl/verilog} 
+set_db / .script_search_path {../../syn} 
+set_db / .init_hdl_search_path {../../rtl/verilog} 
 
 ##Uncomment and specify machine names to enable super-threading.
 ##set_db / .super_thread_servers {<machine names>} 
@@ -92,7 +92,7 @@ puts "Parasitics library has been read, check warnings"
 ####################################################################
 #read_hdl -v2001 -f $RTL_FILE_LIST
 
-read_hdl -language v2001 -f ../rtl/verilog/mcs4.f
+read_hdl -language v2001 -f ../../rtl/verilog/mcs4.f
 
 #puts "The design has been read, check messages"
 #suspend
@@ -106,7 +106,7 @@ elaborate $DESIGN
 #time_info Elaboration
 #
 ##check_design -unresolved
-#check_design
+check_design
 #
 #puts "The check_design command has been launched, check results"
 #suspend
@@ -114,12 +114,14 @@ elaborate $DESIGN
 #####################################################################
 ### Constraints Setup
 #####################################################################
+
+read_sdc {../../syn/mcs4_constraints.sdc.tcl}
 #read_sdc {../Genus_inputs/Adders_constraints_sdc.tcl}
 ##read_sdc {../input_genus/Adders_Genus_Constraints.sdc}
 ###read_sdc {../input_genus/Adders_WC.sdc}
 #
-#puts "The constraint file has been read, check messages"
-#suspend
+puts "The constraint file has been read, check messages"
+suspend
 #
 ## To print the failed constraints 
 #puts "$::dc::sdc_failed_commands > failed.sdc"
@@ -127,15 +129,15 @@ elaborate $DESIGN
 #suspend
 #
 ## Timing Lint
-#check_timing_intent -verbose
+check_timing_intent -verbose
 #
-#puts "The Timing Lint report has been generated, check results"
-#suspend
+puts "The Timing Lint report has been generated, check results"
+suspend
 #
 #
-#report clocks
-#puts "The report clocks command has been executed, check clock specs"
-#suspend
+report clocks
+puts "The report clocks command has been executed, check clock specs"
+suspend
 #
 #puts "The number of exceptions is [llength [vfind "design:$DESIGN" -exception *]]"
 #
@@ -164,14 +166,14 @@ elaborate $DESIGN
 #####################################################################################################
 ### Synthesizing to generic 
 #####################################################################################################
-#set_db / .syn_generic_effort $GEN_EFF
-#syn_generic
-#puts "Runtime & Memory after 'syn_generic'"
+set_db / .syn_generic_effort $GEN_EFF
+syn_generic
+puts "Runtime & Memory after 'syn_generic'"
 #time_info GENERIC
-#puts "The generic synthesis has been executed, check messages"
-#suspend
+puts "The generic synthesis has been executed, check messages"
+suspend
 #
-#write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_generic.v
+write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_generic.v
 #puts "The generic netlist has been generated, check netlist"
 #suspend
 #
