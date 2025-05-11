@@ -16,3 +16,5 @@ resume
 resume
 # resuming normal operation
 # entering suspend mode
+ext
+exit

@@ -3843,3 +3843,6 @@ The generic synthesis has been executed, check messages
 Execution has been suspended temporarily.
 Enter 'resume' to continue.
 Enter 'stop_suspend' to stop script execution
+[SUSPEND]genus:root: -2> ext
+invalid command name "ext"
+[SUSPEND]genus:root: -2> exit
