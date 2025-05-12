@@ -46,11 +46,11 @@ module i4003 #(
     wire         cp_edge = (cp_delay == LATCH_DELAY_CY[W-1:0]);
     always @(posedge sysclk) begin
         if (cp == cp_delayed) begin
-            cp_delay <= 0;
+            cp_delay <= 1'b0;
         end
         else begin
             if (cp_edge) begin
-                cp_delay <= 0;
+                cp_delay <= 1'b0;
                 cp_delayed <= cp;
             end
             else begin
