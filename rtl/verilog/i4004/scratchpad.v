@@ -47,7 +47,7 @@ module scratchpad (
     input  wire         inc_isz_xch,            // INC+ISZ+XCH
     input  wire         opa0_n,                 // ~OPA.0
     input  wire         sc,                     // SC (Single Cycle)
-    input  wire         dc                      // DC (Double Cycle, ~SC)
+    input  wire         dc,                      // DC (Double Cycle, ~SC)
     
     input  wire [3:0] data_in,
     output wire [3:0] data_out,
