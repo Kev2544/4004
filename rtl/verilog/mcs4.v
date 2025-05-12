@@ -111,6 +111,17 @@ module mcs4(
         .ram3_data2_out ()
     );
 
+	wire [9:0] out_4003;
+
+	i4003 shiftreg (
+   		.sysclk(sysclk),
+    	.cp(clk2),                    // Usa clk2 como reloj de entrada
+    	.serial_in(data_pad[0]),      // Entrada serial desde el bus de datos (bit 0)
+    	.enable(1'b1),                // Siempre habilitado para fines de prueba
+    	.parallel_out(out_4003),
+    	.serial_out()                 // No lo usamos por ahora
+	);
+
     // Instantiate the Unit Under Test (UUT)
     i4004 i4004 (
         .sysclk(sysclk),
