@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
 `default_nettype none
-`include "../common/functions.vh"
 ////////////////////////////////////////////////////////////////////////
 //
 // MCS-4 i4003 Shift Register
@@ -32,6 +31,8 @@ module i4003 #(
     output wire [9:0]   parallel_out,
     output reg          serial_out
     );
+
+`include "../common/functions.vh"
 
 /*    initial begin
         serial_out = 1'b0;
