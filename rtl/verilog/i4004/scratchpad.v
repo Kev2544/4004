@@ -199,7 +199,7 @@ module scratchpad (
             // Escribe durante m22 y fase válida si se activa xch o fin/fim/src/jin
             if ((m22 && clk2) && (xch || fin_fim_src_jin)) begin
                 data_dir_reg <= 1'b1;
-                data_out_reg <= /* valor del registro que se intercambia */;
+                data_out_reg <= data;
             end else begin
                 data_dir_reg <= 1'b0;
             end

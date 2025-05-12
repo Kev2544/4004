@@ -169,7 +169,7 @@ module timing_io(
             // Reemplaza 'o_ib' u otra señal que indique salida desde puerto
             if ((ior || iow) && clk2) begin
                 data_dir_reg <= 1'b1;
-                data_out_reg <= /* salida del puerto o latch */;
+                data_out_reg <= data/;
             end else begin
                 data_dir_reg <= 1'b0;
             end

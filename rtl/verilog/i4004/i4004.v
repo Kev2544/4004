@@ -305,7 +305,7 @@ module i4004(
             // Write during m22 + clk2 and instruction says output
             if (m22 && clk2 && (ior || iow || write_acc_1 || write_carry_2)) begin
                 data_dir_reg <= 1'b1;
-                data_out_reg <= /* some source, e.g. ALU result or ACC */;
+                data_out_reg <= data;
             end else begin
                 data_dir_reg <= 1'b0;
             end
