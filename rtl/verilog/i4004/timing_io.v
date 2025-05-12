@@ -57,8 +57,8 @@ module timing_io(
     input  wire         cmram3,
     output wire         cmram3_pad,
 
-    input  wire [3:0] data_in,
-    output wire [3:0] data_out,
+    //input  wire [3:0] data_in,
+    //output wire [3:0] data_out,
     output wire       data_dir
     );
 
