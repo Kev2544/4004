@@ -44,6 +44,16 @@ module mcs4(
     inout	wire [3:0]  data_pad,
     inout	wire [3:0]  io_pad
 	);
+
+    // Señales internas del bus compartido
+    wire [3:0] data_in;
+    wire [3:0] data_out;
+    wire       data_dir;
+
+    // Lógica tri-state
+    assign data_pad = data_dir ? data_out : 4'bz;
+    assign data_in  = data_pad;
+
 	
     localparam SYSCLK_TCY = 50;     // 20 MHz Oscillator period in ns
     // localparam SYSCLK_TCY = 20;     // 50 MHz Oscillator period in ns
@@ -74,7 +84,9 @@ module mcs4(
         .sync_pad(sync_pad),
         .poc_pad(poc_pad),
         .cmrom_pad(cmrom_pad),
-        .data_pad(data_pad),
+        .data_in(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .io_pad(io_pad),
         .clear_pad(clear_pad),
         .rom_addr(rom_addr),
@@ -129,7 +141,9 @@ module mcs4(
         .clk2_pad(clk2_pad),
         .poc_pad(poc_pad),
         .test_pad(test_pad),
-        .data_pad(data_pad),
+        .data_in(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .cmrom_pad(cmrom_pad),
         .cmram0_pad(cmram0_pad),
         .cmram1_pad(cmram1_pad),

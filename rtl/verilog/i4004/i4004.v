@@ -25,13 +25,19 @@ module i4004(
     input  wire         clk2_pad,
     input  wire         poc_pad,
     input  wire         test_pad,
-    inout  wire [3:0]   data_pad,
+    input  wire [3:0]   data_in,
+    output wire [3:0]   data_out,
+    output wire         data_dir,
     output wire         cmrom_pad,
     output wire         cmram0_pad,
     output wire         cmram1_pad,
     output wire         cmram2_pad,
     output wire         cmram3_pad,
     output wire         sync_pad
+
+    input  wire [3:0] data_in,
+    output wire [3:0] data_out,
+    output wire       data_dir
     );
 
     // Common BiDir data bus
@@ -285,5 +291,29 @@ module i4004(
         .sc(sc),
         .dc(dc)
     );
+
+
+    // Internal data bus control
+    reg [3:0] data_out_reg;
+    reg       data_dir_reg;
+
+    assign data_out = data_out_reg;
+    assign data_dir = data_dir_reg;
+
+    always @(posedge sysclk) begin
+        if (poc) begin
+            data_out_reg <= 4'b0000;
+            data_dir_reg <= 1'b0;
+        end else begin
+            // Example control logic (should be refined):
+            // Write during m22 + clk2 and instruction says output
+            if (m22 && clk2 && (ior || iow || write_acc_1 || write_carry_2)) begin
+                data_dir_reg <= 1'b1;
+                data_out_reg <= /* some source, e.g. ALU result or ACC */;
+            end else begin
+                data_dir_reg <= 1'b0;
+            end
+        end
+    end
 
 endmodule

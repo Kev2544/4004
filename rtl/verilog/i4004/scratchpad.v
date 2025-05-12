@@ -48,6 +48,10 @@ module scratchpad (
     input  wire         opa0_n,                 // ~OPA.0
     input  wire         sc,                     // SC (Single Cycle)
     input  wire         dc                      // DC (Double Cycle, ~SC)
+    
+    input  wire [3:0] data_in,
+    output wire [3:0] data_out,
+    output wire       data_dir
     );
 
     reg  [7:0]  dram_array [0:7];
@@ -177,6 +181,29 @@ module scratchpad (
     always @(posedge sysclk) begin
         if (m12_m22_clk1_m11_m12)
             din_n <= ~data;
+    end
+
+
+    // Lógica tentativa para el bus de datos compartido
+    reg [3:0] data_out_reg;
+    reg       data_dir_reg;
+
+    assign data_out = data_out_reg;
+    assign data_dir = data_dir_reg;
+
+    always @(posedge sysclk) begin
+        if (poc) begin
+            data_out_reg <= 4'b0000;
+            data_dir_reg <= 1'b0;
+        end else begin
+            // Escribe durante m22 y fase válida si se activa xch o fin/fim/src/jin
+            if ((m22 && clk2) && (xch || fin_fim_src_jin)) begin
+                data_dir_reg <= 1'b1;
+                data_out_reg <= /* valor del registro que se intercambia */;
+            end else begin
+                data_dir_reg <= 1'b0;
+            end
+        end
     end
 
 endmodule

@@ -56,6 +56,10 @@ module timing_io(
     output wire         cmram2_pad,
     input  wire         cmram3,
     output wire         cmram3_pad
+
+    input  wire [3:0] data_in,
+    output wire [3:0] data_out,
+    output wire       data_dir
     );
 
     // Simple pass-throughs
@@ -147,5 +151,29 @@ module timing_io(
             data_out <= data;
     end
     assign data_pad = poc ? 4'b0000 : (n0700 ? 4'bzzzz : data_out);
+
+
+    // Control tentativo del bus de datos desde el IO
+    reg [3:0] data_out_reg;
+    reg       data_dir_reg;
+
+    assign data_out = data_out_reg;
+    assign data_dir = data_dir_reg;
+
+    always @(posedge sysclk) begin
+        if (poc) begin
+            data_out_reg <= 4'b0000;
+            data_dir_reg <= 1'b0;
+        end else begin
+            // Simulación de acceso IO desde el bus
+            // Reemplaza 'o_ib' u otra señal que indique salida desde puerto
+            if ((ior || iow) && clk2) begin
+                data_dir_reg <= 1'b1;
+                data_out_reg <= /* salida del puerto o latch */;
+            end else begin
+                data_dir_reg <= 1'b0;
+            end
+        end
+    end
 
 endmodule

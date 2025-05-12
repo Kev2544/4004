@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
 `default_nettype none
+`include "../common/functions.vh"
 ////////////////////////////////////////////////////////////////////////
 //
 // MCS-4 i4003 Shift Register
@@ -20,8 +21,6 @@
 // details of this license.
 //
 ////////////////////////////////////////////////////////////////////////
-
-`include "../common/functions.vh"
 
 module i4003 #(
     parameter SYSCLK_TCY = 20       // System clock period in nanoseconds
