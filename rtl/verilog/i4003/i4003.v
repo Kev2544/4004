@@ -21,6 +21,8 @@
 //
 ////////////////////////////////////////////////////////////////////////
 
+`include "../common/functions.vh"
+
 module i4003 #(
     parameter SYSCLK_TCY = 20       // System clock period in nanoseconds
     ) (
@@ -72,8 +74,5 @@ module i4003 #(
             serial_out <= shifter[9];
         end
     end
-
-
-`include "../common/functions.vh"
 
 endmodule

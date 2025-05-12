@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
 `default_nettype none
+`include "functions.vh"
 ////////////////////////////////////////////////////////////////////////
 //
 // MCS-4 common clock generator sub-module
@@ -114,6 +115,5 @@ module clockgen #(
         endcase
     end
 */
-`include "functions.vh"
 
 endmodule
