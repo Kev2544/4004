@@ -33,11 +33,7 @@ module i4004(
     output wire         cmram1_pad,
     output wire         cmram2_pad,
     output wire         cmram3_pad,
-    output wire         sync_pad,
-
-    input  wire [3:0] data_in,
-    output wire [3:0] data_out,
-    output wire       data_dir
+    output wire         sync_pad
     );
 
     // Common BiDir data bus
