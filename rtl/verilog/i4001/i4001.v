@@ -50,7 +50,7 @@ module i4001 #(
     wire sync   = sync_pad;
     wire poc    = poc_pad;
     wire cmrom  = cmrom_pad;
-    wire clear  = clear_pad;
+    //wire clear  = clear_pad;
 
     // Identify the execution phases
     wire    a12, a22, a32;
@@ -212,7 +212,7 @@ module i4001 #(
     // Latch new output data
     reg  [3:0]  io_out;
     always @(posedge sysclk) begin
-        if (clear | poc)
+        if (/*clear*/clear_pad | poc)
             io_out <= 4'b0000;
         if (clk2 & iowrite) begin
             io_out <= data_pad;
