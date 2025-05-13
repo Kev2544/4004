@@ -133,7 +133,10 @@ module i4001 #(
     always @(posedge sysclk) begin
         if (clk2) begin
             if (a12) fetch_addr[ 3:0] <= data_pad;
+			else  fetch_addr[ 3:0] <= fetch_addr[ 3:0];
+
             if (a22) fetch_addr[ 7:4] <= data_pad;
+            else  fetch_addr[ 7:4] <= fetch_addr[ 7:4];
         end
     end
 
