@@ -44,7 +44,7 @@ module i4001 #(
 
     inout  wire [3:0]   io_pad,
     input  wire         clear_pad,
-    output wor  [11:0]  rom_addr,
+    output wire  [11:0]  rom_addr,
     input  wire [ 7:0]  rom_data
     );
 
