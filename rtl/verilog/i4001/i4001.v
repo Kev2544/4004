@@ -49,7 +49,9 @@ module i4001 #(
     );
 	
 	wire [11:0]  rom_addr_int;// 
+	
 	wire [3:0]  io_pad_int;// 
+	assign io_pad = io_pad_int
 
     // FUTURE: Sync these to the sysclk domain
     wire clk1   = clk1_pad;
