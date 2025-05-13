@@ -268,8 +268,9 @@ module i4001 #(
             end
             else begin: IO_IN_CONFIG
                 assign io_pad_int[p] = 1'b0;
-                if (IO_PULLUP[p])   PULLUP   pu(.O(io_pad_int[p]));
-                else if (IO_PULLDOWN[p]) PULLDOWN pd(.O(io_pad_int[p]));
+                if (IO_PULLUP[p])   io_pad_int[p] = 1'b1;
+                else if (IO_PULLDOWN[p]) io_pad_int = 1'b1;
+				else io_pad_int = io_pad_int
             end
             if (IO_INVERT[p])   assign io_in[p] = ~io_pad_int[p];
             else                assign io_in[p] =  io_pad_int[p];
