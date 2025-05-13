@@ -47,6 +47,8 @@ module i4001 #(
     output wire  [11:0]  rom_addr,
     input  wire [ 7:0]  rom_data
     );
+	
+	wire [11:0]  rom_addr_int;// 
 
     // FUTURE: Sync these to the sysclk domain
     wire clk1   = clk1_pad;
@@ -86,8 +88,8 @@ module i4001 #(
 	// -------------------
 	// Lógica de bus tri-state en ROM
 	// -------------------
-	wire rom_half = rom_addr[0];  // 0 = mitad alta (bits 7:4), 1 = mitad baja (bits 3:0)
-	wire rom_active = sync_pad && cmrom_pad && (rom_addr[11:8] == ROM_NUMBER);
+	wire rom_half = rom_addr_int[0];  // 0 = mitad alta (bits 7:4), 1 = mitad baja (bits 3:0) //
+	wire rom_active = sync_pad && cmrom_pad && (rom_addr_int[11:8] == ROM_NUMBER); //
 
 	assign data_out = rom_active 
                 ? (rom_half ? rom_data[3:0]   // baja
@@ -158,7 +160,8 @@ module i4001 #(
     assign mbusread = ~(ioread | n0128);
 
     // Access the external Block RAM array
-    assign rom_addr = extbusdrive ? {ROM_NUMBER, fetch_addr} : 12'h000;
+    assign rom_addr_int = extbusdrive ? {ROM_NUMBER, fetch_addr} : 12'h000;//
+	assign rom_addr = rom_addr_int;
 
     //
     // Mux the ROM data for output
