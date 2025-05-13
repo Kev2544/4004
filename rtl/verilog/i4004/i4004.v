@@ -25,7 +25,12 @@ module i4004(
     input  wire         clk2_pad,
     input  wire         poc_pad,
     input  wire         test_pad,
-    inout  wire [3:0]   data_pad,
+    //inout  wire [3:0]   data_pad,
+    input  wire [3:0]   data_pad,
+    output wire [3:0]   data_out,
+    output wire 	  	data_dir,
+
+
     output wire         cmrom_pad,
     output wire         cmram0_pad,
     output wire         cmram1_pad,
@@ -101,6 +106,21 @@ module i4004(
     wire            cmram3;
     wire            cmrom;
 
+	// -------------------
+	// Lógica de bus tri-state en CPU
+	// -------------------
+	// data_pad (entrada), data_out (salida), data_dir (enable)
+	assign data_out = write_acc_1 ? acc_0 :    // cuando la señal write_acc_1 esté activa,
+	//               write_carry_1 ? {3'b000, cf} : // (descomenta si manejas carry)
+	//               write_ram_1 ? ram_data_out :   // (descomenta para WRR o similar)
+  	             4'b0000;  // por defecto no sacamos nada
+
+	assign data_dir = write_acc_1    // habilita solo en la fase en que escribes
+    	           // | write_carry_1  // añade si usas esta señal
+        	       // | write_ram_1    // añade si usas esta señal
+            	   ;
+	// ------------------
+
     // Instantiate the Timing and I/O board
     timing_io tio_board (
         .sysclk(sysclk),
@@ -121,7 +141,10 @@ module i4004(
         .gate(gate),
         .poc(poc),
         .data(data),
-        .data_pad(data_pad),
+        //.data_pad(data_pad),
+		.data_pad(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .test_pad(test_pad),
         .n0432(n0432),
         .sync_pad(sync_pad),

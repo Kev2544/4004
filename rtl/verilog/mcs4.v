@@ -59,8 +59,15 @@ module mcs4(
 	wire		cmram1_pad;
 	wire		cmram2_pad;
 	wire		cmram3_pad;
-	wire [3:0]	data_pad;
 	
+	//wire [3:0]	data_pad;
+	wire [3:0] data_in;
+	wire [3:0] data_out;
+	wire       data_dir;
+
+	assign data_pad = data_dir ? data_out : 4'bzzzz;
+	assign data_in  = data_pad;
+
 	clockgen #(
         .SYSCLK_TCY (SYSCLK_TCY)
     ) clockgen (
@@ -85,7 +92,10 @@ module mcs4(
         .sync_pad(sync_pad),
         .poc_pad(poc_pad),
         .cmrom_pad(cmrom_pad),
-        .data_pad(data_pad),
+        //.data_pad(data_pad),
+        .data_pad(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .io_pad(io_pad[3:0]),
         .clear_pad(clear_pad),
         .rom_addr(rom_addr0),
@@ -110,7 +120,10 @@ module mcs4(
         .sync_pad(sync_pad),
         .poc_pad(poc_pad),
         .cmrom_pad(cmrom_pad),
-        .data_pad(data_pad),
+        //.data_pad(data_pad),
+		.data_pad(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .io_pad(io_pad[7:4]),
         .clear_pad(clear_pad),
         .rom_addr(rom_addr1),
@@ -135,7 +148,10 @@ module mcs4(
         .sync           (sync_pad),
         .reset          (poc_pad),
         .cm             (cmram0_pad),
-        .data           (data_pad),
+        //.data           (data_pad),
+		.data_pad(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .oport          (oport),
         .ram0_addr2     (5'h00),
         .ram0_data2_out (),
@@ -164,7 +180,10 @@ module mcs4(
         .clk2_pad(clk2_pad),
         .poc_pad(poc_pad),
         .test_pad(/*test_pad*/),
-        .data_pad(data_pad),
+        //.data_pad(data_pad),
+		.data_pad(data_in),
+        .data_out(data_out),
+        .data_dir(data_dir),
         .cmrom_pad(cmrom_pad),
         .cmram0_pad(cmram0_pad),
         .cmram1_pad(cmram1_pad),

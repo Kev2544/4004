@@ -37,7 +37,11 @@ module i4001 #(
     input  wire         sync_pad,
     input  wire         poc_pad,
     input  wire         cmrom_pad,
-    inout  tri  [3:0]   data_pad,
+    //inout  tri  [3:0]   data_pad,
+	input  wire [3:0]   data_pad,
+    output wire [3:0]   data_out,
+    output wire 	  	data_dir,
+
     inout  wire [3:0]   io_pad,
     input  wire         clear_pad,
     output wor  [11:0]  rom_addr,
@@ -50,7 +54,7 @@ module i4001 #(
     wire sync   = sync_pad;
     wire poc    = poc_pad;
     wire cmrom  = cmrom_pad;
-    wire clear  = clear_pad;
+    //wire clear  = clear_pad;
 
     // Identify the execution phases
     wire    a12, a22, a32;
@@ -79,6 +83,20 @@ module i4001 #(
     reg  [3:0]  rom_out;
     reg         chipsel;
 
+	// -------------------
+	// Lógica de bus tri-state en ROM
+	// -------------------
+	wire rom_half = rom_addr[0];  // 0 = mitad alta (bits 7:4), 1 = mitad baja (bits 3:0)
+	wire rom_active = sync_pad && cmrom_pad && (rom_addr[11:8] == ROM_NUMBER);
+
+	assign data_out = rom_active 
+                ? (rom_half ? rom_data[3:0]   // baja
+                            : rom_data[7:4])  // alta
+                : 4'b0000;
+
+	assign data_dir = rom_active;
+	// -------------------
+
     // Mux ROM and I/O data for output
     reg  [3:0]  data_out;
     always @(posedge sysclk) begin
@@ -99,7 +117,7 @@ module i4001 #(
     end
 
     // Drive the tristate data bus
-    assign data_pad = extbusdrive ? data_out : 4'bzzzz;
+    //assign data_pad = extbusdrive ? data_out : 4'bzzzz;
 
 
     // Common chip number match
@@ -212,11 +230,15 @@ module i4001 #(
     // Latch new output data
     reg  [3:0]  io_out;
     always @(posedge sysclk) begin
-        if (clear | poc)
+        if (/*clear*/clear_pad | poc)
             io_out <= 4'b0000;
-        if (clk2 & iowrite) begin
+		else 
+			io_out <= io_out;
+
+        if (clk2 & iowrite) 
             io_out <= data_pad;
-        end
+		else 
+			io_out <= io_out;
     end
 
     // I/O config
