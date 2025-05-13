@@ -83,8 +83,8 @@ module mcs4(
     wire [ 7:0] rom_data1;
     
 	i4001 #(
-        .ROM_NUMBER(4'd0)//,
-        //.IO_OUTPUT(4'b1111)
+        .ROM_NUMBER(4'd0),
+        .IO_OUTPUT(4'b0011)
     ) rom_0 (
         .sysclk(sysclk),
         .clk1_pad(clk1_pad),
@@ -111,8 +111,8 @@ module mcs4(
     );
     
 	i4001 #(
-        .ROM_NUMBER(4'd1)//,
-        //.IO_OUTPUT(4'b1111)
+        .ROM_NUMBER(4'd1),
+        .IO_OUTPUT(4'b0011)
     ) rom_1 (
         .sysclk(sysclk),
         .clk1_pad(clk1_pad),
