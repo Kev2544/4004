@@ -177,7 +177,8 @@ module i4001 #(
     //
     always @(posedge sysclk) begin
         if (m12) rom_out = rom_data[7:4];
-        if (m22) rom_out = rom_data[3:0];
+		else if (m22) rom_out = rom_data[3:0];
+        else rom_out = rom_out;
     end
 
 
@@ -191,9 +192,10 @@ module i4001 #(
     // SRC flip-flop
     reg  srcff;
     always @(posedge sysclk) begin
-        if (clk2) begin
+        if (clk2)
             if (x22 & cmrom) srcff <= chipnum;
-        end
+			else srcff <= srcff;
+		else srcff <= srcff;
     end
     wire m22_srcff_cm = m22 & srcff & cmrom;
 
@@ -206,12 +208,15 @@ module i4001 #(
     //         n0161 <= 1'b1;
     // end
     always @(posedge sysclk) begin
-        if (clk2) begin
+        if (clk2)
             if (a12)
                 n0161 <= 1'b0;
-            if (m22_srcff_cm & (data_pad == OPA_RDR))
+            else if (m22_srcff_cm & (data_pad == OPA_RDR))
                 n0161 <= 1'b1;
-        end
+			else
+				n0161 <= n0161;
+		else
+			n0161 <= n0161;
     end
     assign ioread = x21 & n0161;
 
@@ -224,12 +229,15 @@ module i4001 #(
     //         n0135 <= 1'b1;
     // end
     always @(posedge sysclk) begin
-        if (clk2) begin
+        if (clk2)
             if (a12)
                 n0135 <= 1'b0;
-            if (m22_srcff_cm & (data_pad == OPA_WRR))
+            else if (m22_srcff_cm & (data_pad == OPA_WRR))
                 n0135 <= 1'b1;
-        end
+			else
+                n0135 <= n0135;
+		else
+            n0135 <= n0135;
     end
     assign iowrite = x22 & n0135;
 
