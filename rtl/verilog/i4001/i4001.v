@@ -214,8 +214,12 @@ module i4001 #(
     always @(posedge sysclk) begin
         if (/*clear*/clear_pad | poc)
             io_out <= 4'b0000;
+		else io_out <= io_out;
+		end
+
         if (clk2 & iowrite) begin
             io_out <= data_pad;
+		else io_out <= io_out;
         end
     end
 
