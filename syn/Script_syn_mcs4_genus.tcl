@@ -139,24 +139,24 @@ report clocks
 puts "The report clocks command has been executed, check clock specs"
 suspend
 #
-#puts "The number of exceptions is [llength [vfind "design:$DESIGN" -exception *]]"
-#
-#if {![file exists ${_OUTPUTS_PATH}]} {
-#  file mkdir ${_OUTPUTS_PATH}
-#  puts "Creating directory ${_OUTPUTS_PATH}"
-#}
-#
-#if {![file exists ${_REPORTS_PATH}]} {
-#  file mkdir ${_REPORTS_PATH}
-#  puts "Creating directory ${_REPORTS_PATH}"
-#}
-#
-#
-#if {![file exists ${_LOG_PATH}]} {
-#  file mkdir ${_LOG_PATH}
-#  puts "Creating directory ${_LOG_PATH}"
-#}
-#
+puts "The number of exceptions is [llength [vfind "design:$DESIGN" -exception *]]"
+
+if {![file exists ${_OUTPUTS_PATH}]} {
+  file mkdir ${_OUTPUTS_PATH}
+  puts "Creating directory ${_OUTPUTS_PATH}"
+}
+
+if {![file exists ${_REPORTS_PATH}]} {
+  file mkdir ${_REPORTS_PATH}
+  puts "Creating directory ${_REPORTS_PATH}"
+}
+
+
+if {![file exists ${_LOG_PATH}]} {
+  file mkdir ${_LOG_PATH}
+  puts "Creating directory ${_LOG_PATH}"
+}
+
 ##### To turn off sequential merging on the design 
 ##### uncomment & use the following attributes.
 ###set_db / .optimize_merge_flops false 
@@ -174,57 +174,57 @@ puts "The generic synthesis has been executed, check messages"
 suspend
 #
 write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_generic.v
-#puts "The generic netlist has been generated, check netlist"
+puts "The generic netlist has been generated, check netlist"
 #suspend
 #
-#report_dp > $_REPORTS_PATH/generic/${DESIGN}_datapath.rpt
+report_dp > $_REPORTS_PATH/generic/${DESIGN}_datapath.rpt
 #
-#puts "The data path report command has been executed, check report"
+puts "The data path report command has been executed, check report"
 #suspend
 #
-#write_snapshot -outdir $_REPORTS_PATH -tag generic
-#puts "The generic snapshot report has been executed, check report"
+write_snapshot -outdir $_REPORTS_PATH -tag generic
+puts "The generic snapshot report has been executed, check report"
 #suspend
 #
 #
-#report_summary -directory $_REPORTS_PATH
-#puts "The summary report has been executed, check report"
+report_summary -directory $_REPORTS_PATH
+puts "The summary report has been executed, check report"
 #suspend
 #
 #####################################################################################################
 ### Synthesizing to gates
 #####################################################################################################
-#set_db / .syn_map_effort $MAP_OPT_EFF
-#syn_map
-#puts "Runtime & Memory after 'syn_map'"
-#time_info MAPPED
-#puts "The Mapped synthesis has been executed, check messages"
+set_db / .syn_map_effort $MAP_OPT_EFF
+syn_map
+puts "Runtime & Memory after 'syn_map'"
+time_info MAPPED
+puts "The Mapped synthesis has been executed, check messages"
 #suspend
 #
-#write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_mapped.v
-#puts "The Mapped netlist has been generated, check netlist"
-#suspend
-#
-#
-#write_snapshot -outdir $_REPORTS_PATH -tag map
-#puts "The Mapped snapshot report has been executed, check report"
+write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_mapped.v
+puts "The Mapped netlist has been generated, check netlist"
 #suspend
 #
 #
-#report_summary -directory $_REPORTS_PATH
-#puts "The mapped summary report has been executed, check report"
+write_snapshot -outdir $_REPORTS_PATH -tag map
+puts "The Mapped snapshot report has been executed, check report"
 #suspend
 #
-#report_dp > $_REPORTS_PATH/map/${DESIGN}_datapath.rpt
 #
-#puts "The Mapped data-path report command has been executed, check report"
+report_summary -directory $_REPORTS_PATH
+puts "The mapped summary report has been executed, check report"
 #suspend
 #
-#write_do_lec -revised_design fv_map -logfile ${_LOG_PATH}/rtl2intermediate.lec.log > ${_OUTPUTS_PATH}/rtl2intermediate.lec.do
+report_dp > $_REPORTS_PATH/map/${DESIGN}_datapath.rpt
+#
+puts "The Mapped data-path report command has been executed, check report"
+#suspend
+#
+write_do_lec -revised_design fv_map -logfile ${_LOG_PATH}/rtl2intermediate.lec.log > ${_OUTPUTS_PATH}/rtl2intermediate.lec.do
 #
 ### ungroup -threshold <value>
 #
-## suspend
+suspend
 ########################################################################################################
 ### Optimize Netlist
 ########################################################################################################
@@ -233,50 +233,50 @@ write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_generic.v
 ###set_db / .remove_assigns true 
 ###set_remove_assign_options -buffer_or_inverter <libcell> -design <design|subdesign> 
 ###set_db / .use_tiehilo_for_const <none|duplicate|unique> 
-#set_db / .syn_opt_effort $MAP_OPT_EFF
-#syn_opt
-#puts "The Optimized synthesis has been executed, check results"
+set_db / .syn_opt_effort $MAP_OPT_EFF
+syn_opt
+puts "The Optimized synthesis has been executed, check results"
 #suspend
 #
 #
-#write_snapshot -outdir $_REPORTS_PATH -tag syn_opt
-#puts "The Optimized snapshot report has been executed, check report"
+write_snapshot -outdir $_REPORTS_PATH -tag syn_opt
+puts "The Optimized snapshot report has been executed, check report"
 #suspend
 #
-#report_summary -directory $_REPORTS_PATH
-#puts "The Optimized summary report has been executed, check report"
+report_summary -directory $_REPORTS_PATH
+puts "The Optimized summary report has been executed, check report"
 #suspend
 #
-#puts "Runtime & Memory after 'syn_opt'"
-#time_info OPT
+puts "Runtime & Memory after 'syn_opt'"
+time_info OPT
 #
 #
 ## write_snapshot -outdir $_REPORTS_PATH -tag final
 ## report_summary -directory $_REPORTS_PATH
 #
-#write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_m_opt.v
-#puts "The Optimized netlist has been generated, check netlist"
+write_hdl  > ${_OUTPUTS_PATH}/${DESIGN}_m_opt.v
+puts "The Optimized netlist has been generated, check netlist"
 #suspend
 #
 ### write_script > ${_OUTPUTS_PATH}/${DESIGN}_m.script
 #
-#write_sdc > ${_OUTPUTS_PATH}/${DESIGN}_m.sdc
-#puts "The output constrain file has been executed, check file"
-#suspend
+write_sdc > ${_OUTPUTS_PATH}/${DESIGN}_m.sdc
+puts "The output constrain file has been executed, check file"
+suspend
 #
 ##################################
 #### write_do_lec
 ##################################
-#write_do_lec -golden_design fv_map -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.v -logfile  ${_LOG_PATH}/intermediate2final.lec.log > ${_OUTPUTS_PATH}/intermediate2final.lec.do
-###Uncomment if the RTL is to be compared with the final netlist..
-#write_do_lec -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.v -logfile ${_LOG_PATH}/rtl2final.lec.log > ${_OUTPUTS_PATH}/rtl2final.lec.do
-#
-## suspend
-#puts "Final Runtime & Memory."
-#time_info FINAL
-#puts "============================"
-#puts "Synthesis Finished ........."
-#puts "============================"
+write_do_lec -golden_design fv_map -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.v -logfile  ${_LOG_PATH}/intermediate2final.lec.log > ${_OUTPUTS_PATH}/intermediate2final.lec.do
+##Uncomment if the RTL is to be compared with the final netlist..
+write_do_lec -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.v -logfile ${_LOG_PATH}/rtl2final.lec.log > ${_OUTPUTS_PATH}/rtl2final.lec.do
+
+# suspend
+puts "Final Runtime & Memory."
+time_info FINAL
+puts "============================"
+puts "Synthesis Finished ........."
+puts "============================"
 #
 #file copy [get_db / .stdout_log] ${_LOG_PATH}/.
 #
