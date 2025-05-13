@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
 `default_nettype none
-`include "functions.vh"
 ////////////////////////////////////////////////////////////////////////
 //
 // MCS-4 common clock generator sub-module
@@ -33,6 +32,8 @@ module clockgen #(
 //    output reg  clk1_ext,
 //    output reg  clk2_ext
     );
+
+`include "functions.vh"
 
     //
     // Instruction phase timing in nanoseconds
