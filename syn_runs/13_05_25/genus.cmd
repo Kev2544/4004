@@ -29,3 +29,4 @@ report_messages
 check_timing_intent -verbose
 report_qor
 report_units
+exit
