@@ -112,11 +112,10 @@ module i4001 #(
     wire n0108 = ((chipsel & (m11 | m21)) | ioread) & ~poc;
     reg  extbusdrive;
     always @(posedge sysclk) begin
-        if (~clk2) begin
+        if (~clk2) 
             extbusdrive <= n0108;
 		else
             extbusdrive <= extbusdrive;
-        end
     end
 
     // Drive the tristate data bus
