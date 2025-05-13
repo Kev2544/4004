@@ -142,7 +142,7 @@ module i4004(
         .poc(poc),
         .data(data),
         //.data_pad(data_pad),
-		.data_pad(data_in),
+		.data_pad(data_pad),
         .data_out(data_out),
         .data_dir(data_dir),
         .test_pad(test_pad),

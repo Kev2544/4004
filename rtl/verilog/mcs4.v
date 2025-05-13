@@ -60,7 +60,7 @@ module mcs4(
 	wire		cmram2_pad;
 	wire		cmram3_pad;
 	
-	//wire [3:0]	data_pad;
+	wire [3:0]	data_pad;
 	wire [3:0] data_in;
 	wire [3:0] data_out;
 	wire       data_dir;
