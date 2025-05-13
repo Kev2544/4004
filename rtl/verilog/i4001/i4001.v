@@ -103,7 +103,8 @@ module i4001 #(
         if (~clk2) begin
             data_out = 4'bxxxx;
             if (ioread)   data_out = io_in;
-            if (mbusread) data_out = rom_out;
+            else if (mbusread) data_out = rom_out;
+			else data_out = data_out;
         end
     end
 
@@ -113,6 +114,8 @@ module i4001 #(
     always @(posedge sysclk) begin
         if (~clk2) begin
             extbusdrive <= n0108;
+		else
+            extbusdrive <= extbusdrive;
         end
     end
 
@@ -143,14 +146,15 @@ module i4001 #(
     // Latch the chip select
     always @(posedge sysclk) begin
         if (a12)        chipsel <= 1'b0;
-        if (a32 & clk2) chipsel <= cmrom & chipnum;
+        else if (a32 & clk2) chipsel <= cmrom & chipnum;
+		else chipsel <= chipsel;
     end
 
     reg  n0128;
     always @(posedge sysclk) begin
-        if (clk1) begin
+        if (clk1)
             n0128 <= ioread;
-        end
+      	else n0128 <= n0128;
     end
     assign mbusread = ~(ioread | n0128);
 
