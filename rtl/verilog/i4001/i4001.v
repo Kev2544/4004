@@ -49,6 +49,7 @@ module i4001 #(
     );
 	
 	wire [11:0]  rom_addr_int;// 
+	wire [3:0]  io_pad_int;// 
 
     // FUTURE: Sync these to the sysclk domain
     wire clk1   = clk1_pad;
@@ -260,16 +261,16 @@ module i4001 #(
         genvar p;
         for (p = 0; p < 4; p = p + 1) begin: IO_PORTS
             if (IO_OUTPUT[p]) begin: IO_OUT_CONFIG
-                if (IO_INVERT[p])   assign io_pad[p] = ~io_out[p];
-                else                assign io_pad[p] =  io_out[p];
+                if (IO_INVERT[p])   assign io_pad_int[p] = ~io_out[p];
+                else                assign io_pad_int[p] =  io_out[p];
             end
             else begin: IO_IN_CONFIG
-                assign io_pad[p] = 1'b0;
-                if (IO_PULLUP[p])   PULLUP   pu(.O(io_pad[p]));
-                else if (IO_PULLDOWN[p]) PULLDOWN pd(.O(io_pad[p]));
+                assign io_pad_int[p] = 1'b0;
+                if (IO_PULLUP[p])   PULLUP   pu(.O(io_pad_int[p]));
+                else if (IO_PULLDOWN[p]) PULLDOWN pd(.O(io_pad_int[p]));
             end
-            if (IO_INVERT[p])   assign io_in[p] = ~io_pad[p];
-            else                assign io_in[p] =  io_pad[p];
+            if (IO_INVERT[p])   assign io_in[p] = ~io_pad_int[p];
+            else                assign io_in[p] =  io_pad_int[p];
         end
     endgenerate
 
