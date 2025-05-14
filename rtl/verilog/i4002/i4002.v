@@ -34,7 +34,10 @@ module i4002 #(
     input  wire         sync,       // MCS-4 Phase synchronization
     input  wire         reset,      // MCS-4 Synchronous reset
     input  wire         cm,         // MCS-4 Command Line (bank select)
-    inout  tri  [3:0]   data,       // MCS-4 bidirectional data bus
+    //inout  tri  [3:0]   data,       // MCS-4 bidirectional data bus
+	input  wire [3:0]   data_pad,
+    output wire [3:0]   data_out,
+    output wire 	  	data_dir,
 
     output reg  [3:0]   oport,      // i4002 Output port
 
@@ -76,7 +79,7 @@ module i4002 #(
         else begin
             if (clk2 & m22) begin
                 io = cm;
-                opa = data;
+                opa = data_pad;
             end
         end
     end
@@ -102,12 +105,12 @@ module i4002 #(
         end
         else begin
             if (cm & x22 & clk2) begin
-                ram_sel = (data[3:2] == CHIP_NUMBER);
+                ram_sel = (data_pad[3:2] == CHIP_NUMBER);
                 src_ram_sel = ram_sel;
-                reg_num = data[1:0];
+                reg_num = data_pad[1:0];
             end
             if (clk2 & x32 & src_ram_sel) begin
-                char_num = data;
+                char_num = data_pad;
             end
             if (a12) begin
                 src_ram_sel = 1'b0;
@@ -131,7 +134,7 @@ module i4002 #(
         end
         else if (ram_sel) begin
             if (clk2 & x22 & wmp)
-                oport = data;
+                oport = data_pad;
         end
     end
 
@@ -186,7 +189,7 @@ module i4002 #(
     // Mux the RAM's write port signals
     //
     wire [4:0]  ram_addr     = reset ? rfsh_addr : reg_addr;
-    wire [3:0]  ram_data_out = reset ? 4'h0      : data;
+    wire [3:0]  ram_data_out = reset ? 4'h0      : data_pad;
     wire        ram0_write   = reset ? 1'b1      : reg0_write;
     wire        ram1_write   = reset ? 1'b1      : reg1_write;
     wire        ram2_write   = reset ? 1'b1      : reg2_write;
@@ -208,7 +211,10 @@ module i4002 #(
     end
 
     wire    reg_read = ram_sel & x22 & (rdm | rdx);
-    assign  data = reg_read ? reg_data_in : 4'bzzzz;
+    //assign  data = reg_read ? reg_data_in : 4'bzzzz;
+    assign  data_out = reg_read ? reg_data_in : 4'b0000;
+    assign  data_dir = reg_read;
+
 
 
     // Instantiate RAM0 array

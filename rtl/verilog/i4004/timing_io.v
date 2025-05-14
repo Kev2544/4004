@@ -42,7 +42,11 @@ module timing_io(
 
     // External I/O Pad conditioning
     inout  wire [3:0]   data,
-    inout  wire [3:0]   data_pad,
+    //inout  wire [3:0]   data_pad,
+	input  wire [3:0]   data_pad,
+    output wire [3:0]   data_out,
+    output wire 	  	data_dir,
+
     input  wire         test_pad,
     output reg          n0432,
     output wire         sync_pad,
@@ -141,11 +145,18 @@ module timing_io(
     assign data = data_in;
 
     // Outgoing data to the external pads
-    reg [3:0] data_out;
+    reg [3:0] data_o;
     always @(posedge sysclk) begin
         if (n0702)
-            data_out <= data;
+            data_o <= data;
     end
-    assign data_pad = poc ? 4'b0000 : (n0700 ? 4'bzzzz : data_out);
+    
+	//assign data_pad = poc ? 4'b0000 : (n0700 ? 4'bzzzz : data_out);
+	assign data_out = poc        ? 4'b0000 :
+                      n0700      ? 4'b0000 :  // opcional: puede usarse como dir = 0
+                   	  data_o;  // tu lógica interna de salida
+
+    assign data_dir = ~(poc || n0700);  // solo activa el bus cuando ambos son 0
+
 
 endmodule

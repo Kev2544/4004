@@ -3,12 +3,130 @@ Cadence Innovus(TM) Implementation System.
 Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
 
 Version:	v21.12-s106_1, built Wed Dec 8 18:19:02 PST 2021
+<<<<<<< HEAD
+<<<<<<< HEAD
+Options:	-gui 
+Date:		Tue May 13 05:30:52 2025
+=======
 Options:	
 Date:		Tue May 13 22:46:17 2025
+>>>>>>> 7087522becd5ee8b4f5b5ef74fbe5d51d0d05fc6
+=======
+Options:	
+Date:		Tue May 13 22:46:17 2025
+>>>>>>> 4a04d1daac857a5ed2598e949ab6b50f397845c0
 Host:		ip-10-16-10-154.rdius.us (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (2cores*4cpus*Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz 36608KB)
 OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
 
 License:
+<<<<<<< HEAD
+<<<<<<< HEAD
+		[05:30:52.302457] Configured Lic search path (20.02-s004): 50009@10.16.0.85
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+**ERROR: (IMPSYT-468):	Unknown argument -gui
+Usage: innovus
+ 	[-abort_on_error]
+ 	[-batch]
+ 	[-cds_lib_file <in_file>]
+ 	[-stylus]
+ 	[-cpus <integer>]
+ 	[-db <dir>]
+ 	[-disable_user_startup]
+ 	[-execute <Tcl_commands>]
+ 	[-files <in_file_list>]
+ 	[-help]
+ 	[-ihdb <dir>]
+ 	[-lic_multi_cpu <lic_list>]
+ 	[-lic_options <lic_list>]
+ 	[-lic_startup <lic_list>]
+ 	[-lic_startup_options <lic_list>]
+ 	[-lic_stack <integer>]
+ 	[-log <prefix>]
+ 	[-no_gui]
+ 	[-no_logv]
+ 	[-no_cmd]
+ 	[-overwrite]
+ 	[-version]
+ 	[-wait <minutes>]
+
+Usage: innovus [options]
+[-abort_on_error]
+	Exit if an error is detected at any point.
+[-batch]
+	No interactive prompt occurs. Exit after -execute and -files options
+	are processed.
+[-cds_lib_file <in_file>]
+	Load in_file rather than the default cds.lib file in the current
+	directory to obtain the names and locations of OpenAccess libraries.
+[-stylus]
+	Enable Common UI, Stylus flow kit, and Stylus metrics.
+[-cpus <integer>]
+	Number of cpus to use for multi-threading on current host.
+[-db <dir>]
+	The directory of a DB to read. It is read before -execute or -files are invoked.
+[-disable_user_startup]
+	Only read the init file in the installation hierarchy. Do not read
+	init files in the home or current directory.
+[-execute <Tcl_commands>]
+	Tcl commands to execute at startup, before -files.
+[-files <in_file_list>]
+	One or more Tcl files to source at startup, after -execute. Set shell envar CDS_STYLUS_SOURCE_VERBOSE to 0 if you don't want the source command output to default to verbose in Stylus.
+[-help]
+	Write out the usage and options with brief descriptions.
+[-ihdb <dir>]
+	Specifies an integrity/integrated Hierarchical Data Base to be read (e.g. xxx/my_design/placed) before -execute or -files are invoked.
+[-lic_multi_cpu <lic_list>]
+	Control which licenses to use for higher multi-cpu usage in priority
+	order from left to right. The allowed license names are:
+	"invs_cpu invs invsb fel fexl invs_dcpu"
+[-lic_options <lic_list>]
+	Ordered list for dynamic option license checkout in priority order
+	from left to right. These are checked out when needed by a specific
+	Tcl command. Legal names are:
+	"invs_hier invs_ms invs_3d_ic invs_5nm invs_3nm invs_7nm invs_20nm invs_10nm invs_i20nm invs_i10nm
+	 invs_hfr invs_gigaplace invs_gigaplace_gxl qrcaa enclp encan enccco encng vdixl_capacity modus_dft
+	 invs_pi invs_ml invs_ehfs invs_dfm invs_sc invs_automotive
+	 tpsxl tpsl vtsxl vtsl vtsxm vtsesd vtsaa"
+[-lic_startup <lic_list>]
+	Request one of these licenses at startup in priority order from left
+	to right. The supported licenses are:
+	"invs invsb fexl vdixl vdi fel"
+[-lic_startup_options <lic_list>]
+	Additional option licenses needed at startup. The allowed license names are:
+	"invs_hier invs_ms invs_3d_ic invs_5nm invs_3nm invs_7nm invs_20nm invs_10nm invs_i20nm invs_i10nm
+	 invs_hfr invs_gigaplace invs_gigaplace_gxl qrcaa enclp encan enccco encng vdixl_capacity modus_dft
+	 invs_pi invs_ml invs_ehfs invs_dfm invs_sc invs_automotive
+	 tpsxl tpsl vtsxl vtsl vtsxm vtsesd vtsaa"
+[-lic_stack <integer>]
+	Number of licenses to stack for stackable licenses.
+[-log <prefix>]
+	Prefix for the .log, .cmd, and .logv files. If 3 args are given like
+	-log "a b c" then the 3 names are used without any extension added.
+	If the .log file already exists, an integer is appended to all the
+	names to make the files unique.
+[-no_gui]
+	Disable GUI and Tk support. GUI will not be available later in the
+	session.
+[-no_logv]
+	Specifies that verbose log file will not be created.
+[-no_cmd]
+	Specifies that verbose command file will not be created.
+[-overwrite]
+	Overwrite an existing .log file (and associated .cmd, .logv files)
+	instead of adding an integer to make the files unique.
+[-version]
+	Return program version information.
+[-wait <minutes>]
+	Number of minutes to wait for licenses before exiting. The default is 0.Lic Summary:
+[05:31:02.459563] Cdslmd servers: cad-license
+[05:31:02.459578] Feature usage summary:
+[05:31:02.459579] Innovus_Impl_System
+
+=======
+=======
+>>>>>>> 4a04d1daac857a5ed2598e949ab6b50f397845c0
 		[22:46:17.302513] Configured Lic search path (20.02-s004): 50009@10.16.0.85
 
 		invs	Innovus Implementation System	21.1	checkout succeeded
@@ -26972,6 +27090,7 @@ Reset AAE Options
 <CMD> set_verify_drc_mode -area {0 0 0 0}
 <CMD> setLayerPreference violation -isVisible 1
 <CMD> violationBrowser -all -no_display_false -displayByLayer
+<<<<<<< HEAD
 <CMD> zoomBox -6.35750 56.89000 43.32450 77.32450
 <CMD> fit
 <CMD> zoomBox -5.80200 116.01450 125.04500 66.56750
@@ -26999,3 +27118,9 @@ Reset AAE Options
 <CMD> zoomBox -2.77400 3.21200 60.90150 29.40200
 <CMD> zoomBox 2.09050 3.47600 56.21500 25.73750
 <CMD> zoomBox -95.40950 -6.98550 138.27400 89.12950
+=======
+<<<<<<< HEAD
+>>>>>>> 7087522becd5ee8b4f5b5ef74fbe5d51d0d05fc6
+=======
+>>>>>>> 4a04d1daac857a5ed2598e949ab6b50f397845c0
+>>>>>>> 6347455857a0d029c5f407a7252eccbda6f365e0
