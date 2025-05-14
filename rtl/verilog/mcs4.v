@@ -43,7 +43,7 @@ module mcs4(
 
     // Bidirs
     //inout	wire [3:0]  data_pad,
-    inout	wire [7:0]  io_pad
+    (* keep = "true" *) inout	wire [7:0]  io_pad
 	);
 	
     localparam SYSCLK_TCY = 50;     // 20 MHz Oscillator period in ns
@@ -84,7 +84,8 @@ module mcs4(
     
 	i4001 #(
         .ROM_NUMBER(4'd0),
-        .IO_OUTPUT(4'b0011)
+        .IO_OUTPUT(4'b1100),
+		.IO_PULLUP(4'b0011)
     ) rom_0 (
         .sysclk(sysclk),
         .clk1_pad(clk1_pad),
@@ -112,7 +113,8 @@ module mcs4(
     
 	i4001 #(
         .ROM_NUMBER(4'd1),
-        .IO_OUTPUT(4'b0011)
+        .IO_OUTPUT(4'b1100),
+		.IO_PULLUP(4'b0011)
     ) rom_1 (
         .sysclk(sysclk),
         .clk1_pad(clk1_pad),
