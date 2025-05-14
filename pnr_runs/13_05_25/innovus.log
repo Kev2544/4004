@@ -4,16 +4,22 @@ Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
 
 Version:	v21.12-s106_1, built Wed Dec 8 18:19:02 PST 2021
 <<<<<<< HEAD
+<<<<<<< HEAD
 Options:	-gui 
 Date:		Tue May 13 05:30:52 2025
 =======
 Options:	
 Date:		Tue May 13 22:46:17 2025
 >>>>>>> 7087522becd5ee8b4f5b5ef74fbe5d51d0d05fc6
+=======
+Options:	
+Date:		Tue May 13 22:46:17 2025
+>>>>>>> 4a04d1daac857a5ed2598e949ab6b50f397845c0
 Host:		ip-10-16-10-154.rdius.us (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (2cores*4cpus*Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz 36608KB)
 OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
 
 License:
+<<<<<<< HEAD
 <<<<<<< HEAD
 		[05:30:52.302457] Configured Lic search path (20.02-s004): 50009@10.16.0.85
 
@@ -119,6 +125,8 @@ Usage: innovus [options]
 [05:31:02.459579] Innovus_Impl_System
 
 =======
+=======
+>>>>>>> 4a04d1daac857a5ed2598e949ab6b50f397845c0
 		[22:46:17.302513] Configured Lic search path (20.02-s004): 50009@10.16.0.85
 
 		invs	Innovus Implementation System	21.1	checkout succeeded
@@ -27082,4 +27090,7 @@ Reset AAE Options
 <CMD> set_verify_drc_mode -area {0 0 0 0}
 <CMD> setLayerPreference violation -isVisible 1
 <CMD> violationBrowser -all -no_display_false -displayByLayer
+<<<<<<< HEAD
 >>>>>>> 7087522becd5ee8b4f5b5ef74fbe5d51d0d05fc6
+=======
+>>>>>>> 4a04d1daac857a5ed2598e949ab6b50f397845c0
