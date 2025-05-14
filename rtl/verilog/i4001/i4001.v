@@ -269,8 +269,8 @@ module i4001 #(
             else begin: IO_IN_CONFIG
                 //assign io_pad_int[p] = 1'bz;
                 if (IO_PULLUP[p])   assign io_pad_int[p] = 1'b1;
-                else if (IO_PULLDOWN[p]) assign io_pad_int[p] = 1'b0;
-				else assign io_pad_int[p] = 1'bz;
+                /*else*/ if (IO_PULLDOWN[p]) assign io_pad_int[p] = 1'b0;
+				//else assign io_pad_int[p] = 1'bz;
             end
             if (IO_INVERT[p])   assign io_in[p] = ~io_pad_int[p];
             else                assign io_in[p] =  io_pad_int[p];
