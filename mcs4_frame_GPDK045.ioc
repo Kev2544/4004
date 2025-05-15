@@ -48,7 +48,7 @@
     )
 ( bottom
       ( locals ring_number = 1    )
-( inst name= "pad_vss_io" )
+( inst name= "pad_vss_ior" )
 ( inst name= "pad_io_pad7" )
 ( inst name= "pad_io_pad6" )
 ( inst name= "pad_io_pad5" )
@@ -78,7 +78,7 @@
 ( inst name= "pad_p_out2" )
 ( inst name= "pad_p_out3" )
 ( inst name= "pad_p_out4" )
-( inst name= "pad_vdd_io" )
+( inst name= "pad_vdd_ior" )
 ( inst name= "pad_p_out5" )
 ( inst name= "pad_p_out6" )
 ( inst name= "pad_p_out7" )
