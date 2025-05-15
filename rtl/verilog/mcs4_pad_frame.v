@@ -7,7 +7,8 @@
 ////////////////////////////////////////////////////////////////////////
 
 module mcs4_pad_frame(
-    inout			VDD,
+    inout			VDD0,
+    inout			VDD1,
     inout			VSS,
     inout			VDD_IOR,
     inout			VSS_IOR,
@@ -59,7 +60,8 @@ module mcs4_pad_frame(
 	PADDO	pad_io_pad7	(	.A(io_pad_w[7]), .PAD(io_pad[7])	);		
 	
 	//core pwr pads
-	PADVDD	pad_vdd	(	.VDD(VDD)	);
+	PADVDD	pad_vdd0	(	.VDD(VDD0)	);
+	PADVDD	pad_vdd1	(	.VDD(VDD1)	);
 	PADVSS	pad_vss	(	.VSS(VSS)	);
 	
 	//io ring pwr pads
