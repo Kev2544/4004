@@ -42,7 +42,7 @@ module i4001 #(
     output wire [3:0]   data_out,
     output wire 	  	data_dir,
 
-    inout  wire [3:0]   io_pad,
+    output  wire [3:0]   io_pad,
     input  wire         clear_pad,
     output wire  [11:0]  rom_addr,
     input  wire [ 7:0]  rom_data
