@@ -56,11 +56,11 @@ create_delay_corner -name DC_mcs4_fast -early_timing_condition TC_mcs4_fast \
 
 # CONSTRAINTS MODES 
 create_constraint_mode -name CM_mcs4_slow -sdc_files { \
-   ../../syn/mcs4_constraints_fast.sdc.tcl
+   ../../syn/constraints_mcs4_fast_sdc.tcl
 }
 
 create_constraint_mode -name CM_mcs4_fast -sdc_files { \
-   ../../syn/mcs4_constraints_slow.sdc.tcl
+   ../../syn/constraints_mcs4_slow_sdc.tcl
 }
 
 #create_constraint_mode -name CM_mcs4_typ -sdc_files { \

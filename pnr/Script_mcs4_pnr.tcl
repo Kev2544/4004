@@ -73,7 +73,7 @@ puts "\n--- Floorplan ---"
 
 #floorPlan -site ${CORE_SITE} -r [list 170 170 ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN}] -adjustToSite
 
-floorPlan -site ${CORE_SITE} -s 170.0 170.05 2.6 2.6 2.6 2.6 -adjustToSite
+floorPlan -site ${CORE_SITE} -s 170.0 170.05 5.6 5.6 5.6 5.6 -adjustToSite
 
 suspend
 

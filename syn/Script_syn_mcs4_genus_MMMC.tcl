@@ -34,7 +34,8 @@ set GEN_EFF medium
 set MAP_OPT_EFF high
 
 # Output Paths
-set DATE [clock format [clock seconds] -format "%b%d-%T"]
+#set DATE [clock format [clock seconds] -format "%b%d-%T"]
+set DATE "dir"
 set _OUTPUTS_PATH outputs_${DATE}
 set _REPORTS_PATH reports_${DATE}
 set _LOG_PATH logs_${DATE}
