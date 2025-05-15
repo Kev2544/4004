@@ -113,6 +113,8 @@ puts "Timing Intent report generated."
 report_clocks
 puts "Clock specifications reported."
 
+suspend
+
 # Report Number of Exceptions
 puts "The number of exceptions is [llength [vfind "design:$DESIGN" -exception *]]"
 

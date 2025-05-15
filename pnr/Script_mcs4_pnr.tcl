@@ -11,27 +11,53 @@ set DESIGN_NAME mcs4
 # Common Variables and Paths (Adjust as needed)
 set PROCESS_MODE 45
 set CORE_SITE "CoreSite"
-set OUTPUT_DIR "outputs"  # General output directory
+set OUTPUT_DIR "outputs" 
 set CLOCK_BUFFER_CELLS {CLKBUFX2 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20}
 set CLOCK_INVERTER_CELLS {CLKINVX1 CLKINVX2 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 CLKINVX12 CLKINVX16 CLKINVX20}
 set TARGET_MAX_TRANS 100ps
 set POWER_NETS {VDD VSS}
 set POWER_RING_LAYERS {top Metal1 bottom Metal1 left Metal2 right Metal2}
 set POWER_STRIPE_LAYER Metal6
-set GDS_MAP_FILE "/media/Ext/libs/IBM_PDK/bicmos8hp/v.20171220/lef/bicmos8hp_soce2gds.map"  # Replace with your map file
-set GDS_LIB_NAME "DesignLib"  # Replace with your library name
+set GDS_MAP_FILE "/media/Ext/libs/IBM_PDK/bicmos8hp/v.20171220/lef/bicmos8hp_soce2gds.map"  ;# Replace with your map file
+set GDS_LIB_NAME "DesignLib"
 set GDS_MERGE_LIBS {
     "/media/Ext/libs/8HP_IP_CELL_AND_IO_Libs/BiCMOS8HP_Digital_Kit/ibm_cmos8hp/sc_1p2v_12t_rvt/v.20171220/gds2/BICMOS8HP_SC_1P2V_12T_RVT.gds"
     "/opt/libs/IBM_PDK/bicmos8hp/v.20160727/gds2/CMOS8HP_BASE_WB_IO_7LM.gds"
-}  # Replace with your library paths
+}  
 
+# Floorplan Parameters (Calculated)
 # Floorplan Parameters (Calculated)
 set TOTAL_CELL_AREA 8002.458  ;# Replace with your actual Total Cell Area from Genus
 set TARGET_UTILIZATION 0.70  ;# Target core utilization (e.g., 70%)
 set ASPECT_RATIO 1.2        ;# Aspect ratio (W/H)
+set CORE_MARGIN 4.0         ;# Margin from core edge to chip edge (adjust as needed)
+
+# Calculate estimated Core Area
+set ESTIMATED_CORE_AREA [expr {$TOTAL_CELL_AREA / $TARGET_UTILIZATION}]
+
+# Calculate Row Density (This is an approximation, Innovus will refine it)
+# Row density = (std cell area + block/macro area) / core area
+# Assuming for simplicity that Total Cell Area is primarily std cell area and there are no significant blocks/macros
+set ESTIMATED_ROW_DENSITY [expr {$TOTAL_CELL_AREA / $ESTIMATED_CORE_AREA}]
+
+# Calculate Core Area
 set CORE_AREA [expr {$TOTAL_CELL_AREA / $TARGET_UTILIZATION}]
-set CORE_HEIGHT [expr {round(sqrt($CORE_AREA / $ASPECT_RATIO), 2)}]
-set CORE_WIDTH [expr {round($CORE_HEIGHT * $ASPECT_RATIO), 2}]
+
+# Calculate Core Height and Width
+set CORE_HEIGHT_UNFORMATTED [expr {sqrt($CORE_AREA / $ASPECT_RATIO)}]
+set CORE_WIDTH_UNFORMATTED [expr {$CORE_HEIGHT_UNFORMATTED * $ASPECT_RATIO}]
+
+# Format the output to 2 decimal places (for display purposes)
+set CORE_HEIGHT [format "%.2f" $CORE_HEIGHT_UNFORMATTED]
+set CORE_WIDTH [format "%.2f" $CORE_WIDTH_UNFORMATTED]
+
+# Verification - Printing the calculated values
+puts "  - Total Cell Area: ${TOTAL_CELL_AREA}"
+puts "  - Target Utilization: ${TARGET_UTILIZATION}"
+puts "  - Aspect Ratio (W/H): 1:${ASPECT_RATIO}"
+puts "  - Calculated Core Area: [format \"%.2f\" $CORE_AREA]"  ;#Formatted output
+puts "  - Calculated Core Width: ${CORE_WIDTH}"
+puts "  - Calculated Core Height: ${CORE_HEIGHT}"
 
 # Create Output Directories
 file mkdir -p ${OUTPUT_DIR}/reports
@@ -43,7 +69,15 @@ setDesignMode -process ${PROCESS_MODE}
 
 # Floorplan Definition
 puts "\n--- Floorplan ---"
-floorPlan -site ${CORE_SITE} -r 0 0 ${CORE_WIDTH} ${CORE_HEIGHT} -adjustToSite
+#floorPlan -site ${CORE_SITE} -r [list [expr {1.0 / $ASPECT_RATIO}] ${ESTIMATED_ROW_DENSITY} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN}] -adjustToSite
+
+#floorPlan -site ${CORE_SITE} -r [list 170 170 ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN}] -adjustToSite
+
+floorPlan -site ${CORE_SITE} -s 170.0 170.05 2.6 2.6 2.6 2.6 -adjustToSite
+
+suspend
+
+#floorPlan -site ${CORE_SITE} -r 0 0 ${CORE_WIDTH} ${CORE_HEIGHT} -adjustToSite
 fit
 
 puts "  - Total Cell Area: ${TOTAL_CELL_AREA}"
@@ -80,6 +114,8 @@ setPlaceMode -congEffort high -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ig
 setPlaceMode -fp false
 place_design
 
+suspend
+
 # Placement Verification
 checkPlace
 checkPinAssignment -report_violating_pin
@@ -89,6 +125,8 @@ puts "\n--- Pre-CTS Timing Analysis ---"
 setAnalysisMode -analysisType onChipVariation
 timeDesign -preCTS -prefix preCTS_setup
 timeDesign -preCTS -prefix preCTS_hold -hold
+
+suspend
 
 # Clock Tree Synthesis (CTS)
 puts "\n--- Clock Tree Synthesis ---"
@@ -100,10 +138,13 @@ create_ccopt_clock_tree_spec -file ${DESIGN_NAME}_ccopt_CTS.spec
 source ${DESIGN_NAME}_ccopt_CTS.spec
 ccopt_design
 
+suspend
 # Post-CTS Timing Analysis
 puts "\n--- Post-CTS Timing Analysis ---"
 timeDesign -postCTS -prefix postCTS_setup
 timeDesign -postCTS -prefix postCTS_hold -hold
+
+suspend
 
 # CTS Reporting
 report_ccopt_clock_trees -file ${OUTPUT_DIR}/reports/clock_trees.rpt
@@ -119,6 +160,9 @@ optDesign -postCTS -drv
 timeDesign -postCTS -prefix postCTS_setup_DRVfix
 timeDesign -postCTS -prefix postCTS_hold_DRVfix -hold
 
+
+suspend
+
 # Setup Time Optimization
 puts "\n  --  Setup Optimization  --"
 setOptMode -addInstancePrefix postCTSsetup
@@ -126,12 +170,19 @@ optDesign -postCTS
 timeDesign -postCTS -prefix postCTS_setup_Setupfix
 timeDesign -postCTS -prefix postCTS_hold_Setupfix -hold
 
+
+suspend
+
+
 # Hold Time Optimization
 puts "\n  --  Hold Optimization  --"
 setOptMode -addInstancePrefix postCTShold
 optDesign -postCTS -hold
 timeDesign -postCTS -prefix postCTS_setup_Holdfix
 timeDesign -postCTS -prefix postCTS_hold_Holdfix -hold
+
+suspend
+
 
 # Routing
 puts "\n--- Routing ---"
@@ -144,10 +195,17 @@ setNanoRouteMode -quiet -routeWithTimingDriven true
 setNanoRouteMode -quiet -routeWithSiDriven true
 routeDesign -globalDetail
 
+
+suspend
+
+
 # Post-Route Timing Analysis
 puts "\n--- Post-Route Timing Analysis ---"
 timeDesign -postRoute -prefix postRoute_setup
 timeDesign -postRoute -prefix postRoute_hold -hold
+
+
+suspend
 
 # GDS Output (Adjust paths and libraries as needed)
 puts "\n--- GDS Output ---"
