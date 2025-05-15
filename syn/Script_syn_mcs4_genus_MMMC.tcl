@@ -20,7 +20,7 @@ puts "Hostname : [info hostname]"
 ##############################################################################
 
 # Design Name
-set DESIGN mcs4
+set DESIGN mcs4_pad_frame
 
 # Library Paths
 set Timing_Libs_Path /CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/timing/

@@ -6,7 +6,7 @@
 ##############################################################################
 
 # Set Design Name
-set DESIGN_NAME mcs4
+set DESIGN_NAME mcs4_pad_frame
 
 # Common Variables and Paths (Adjust as needed)
 set PROCESS_MODE 45

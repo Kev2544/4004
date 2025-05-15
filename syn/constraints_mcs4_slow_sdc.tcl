@@ -3,7 +3,7 @@
 # User Constraint File: constraints_bwco_fast.tcl
 
 # Set the current design
-current_design mcsc4
+current_design mcsc4_pad_frame
 
 # Genus COMMANDS TO SET UNITS
 set_time_unit -picoseconds

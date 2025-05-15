@@ -14,3 +14,4 @@
 ./i4004/scratchpad.v
 ./i4004/timing_io.v
 ./mcs4.v
+./mcs4_pad_frame.v
