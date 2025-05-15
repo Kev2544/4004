@@ -1,0 +1,82 @@
+ 
+( globals
+   version = 3
+   space = 0
+# io_order: clockwise | counterclockwise | default: vertical bottom to top; horizontal left to right
+   io_order = default
+)
+( row_margin
+  ( top
+  ( io_row ring_number = 1 margin = 50)
+)
+  ( bottom
+  ( io_row ring_number = 1 margin = 50)
+)
+  ( left
+  ( io_row ring_number = 1 margin = 50)
+)
+  ( right
+  ( io_row ring_number = 1 margin = 50)
+)
+  )
+#Pads: 
+( iopad
+   ( topleft
+     (locals ring_number = 1)
+      ( inst name= "NW_padIORINGCORNER")
+   )
+    ( left
+      ( locals ring_number = 1)
+( inst name= "pad_poc_pad" )
+( inst name= "pad_clear_pad" )
+( inst name= "pad_sysclk" )
+( inst name= "pad_p_out0" )
+( inst name= "pad_p_out1" )
+#( inst name= "pad_q3"  place_status = placed)
+# Power PADs do not have defined allocation. These will placed automatically
+#( inst name= "pad_VSS" )
+#( inst name= "pad_VDD" )
+#( inst name= "pad_DVSS" )
+#( inst name= "pad_DVDD" )
+
+
+)
+( bottomleft
+       (locals ring_number = 1)
+       ( inst name= "SW_padIORINGCORNER")
+    )
+( bottom
+      ( locals ring_number = 1    )
+( inst name= "pad_io_pad7" )
+( inst name= "pad_io_pad6" )
+( inst name= "pad_io_pad5" )
+( inst name= "pad_io_pad4" )
+( inst name= "pad_io_pad3" )
+) 
+( bottomright
+       (locals ring_number = 1)
+( inst name= "SE_padIORINGCORNER" )
+    )
+( right
+      ( locals ring_number = 1    )
+( inst name= "pad_io_pad2" )
+( inst name= "pad_io_pad1" )
+( inst name= "pad_io_pad0" )
+( inst name= "pad_p_out9" )
+( inst name= "pad_p_out8" )
+)
+( topright
+       (locals ring_number = 1)
+( inst name= "NE_padIORINGCORNER")
+    )
+( top
+      ( locals ring_number = 1    )
+( inst name= "pad_p_out2" )
+( inst name= "pad_p_out3" )
+( inst name= "pad_p_out4" )
+( inst name= "pad_p_out5" )
+( inst name= "pad_p_out6" )
+( inst name= "pad_p_out7" )
+)
+)
+ 
