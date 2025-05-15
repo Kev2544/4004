@@ -1,0 +1,16 @@
+./common/clockgen.v
+./common/counter.v
+./common/timing_generator.v
+./common/timing_recovery.v
+./i4001/i4001.v
+./i4001/i4001_rom.v
+./i4002/i4002.v
+./i4002/i4002_ram.v
+./i4003/i4003.v
+./i4004/alu.v
+./i4004/i4004.v
+./i4004/instruction_decode.v
+./i4004/instruction_pointer.v
+./i4004/scratchpad.v
+./i4004/timing_io.v
+./mcs4.v
