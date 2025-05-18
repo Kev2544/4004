@@ -5077,3 +5077,5 @@ callback Gui_hlist_leave .diagmgr.pane.msup.core.rv.list
  guiWinConfig .diagmgr.pane.umsup.core.gd.list.f1.hlist 828 118 1 1 
  guiWinConfig .diagmgr.pane.umsup.core.rv.list.f1.hlist 841 118 1 1 
 callback Gui_hlist_leave .a.pane.f1.middle.nb.nbframe.hier.revised.fm.tree.f1.hlist
+callback Gui_hlist_leave .a.pane.f1.middle.nb.nbframe.hier.golden.fm.tree.f1.hlist
+callback Gui_hlist_leave .a.pane.f1.middle.nb.nbframe.hier.golden.fm.tree.f1.hlist
