@@ -1,9 +1,11 @@
 # ITESO University
-# Cuauhtemoc Aguilera
-# User Constraint File: constraints_bwco_fast.tcl
+# Kevyn Carrillo kevyn.carrillo@iteso.mx
+# Roberto Vazquez roberto.vazquezv@iteso.mx
+# User Constraint File: mcs4_constraints_slow.sdc
+# Constraints file for Genus and GPDK045 Cadence PDK - SLOW CORNER
 
 # Set the current design
-current_design mcsc4_pad_frame
+current_design mcs4_pad_frame
 
 # Genus COMMANDS TO SET UNITS
 set_time_unit -picoseconds
@@ -13,7 +15,6 @@ set_load_unit -femtofarads
 set EXTCLK "My_CLK"
 set EXTCLK_PERIOD 60000.0
 
-# set SKEW [expr $EXTCLK_PERIOD * 4 / 100.0]
 # CLOCK MAX AND MIN RISE/FALL TIME
 set MINRISE [expr $EXTCLK_PERIOD * 4 / 100.0]
 set MAXRISE [expr $EXTCLK_PERIOD * 5.5 / 100.0]
@@ -28,7 +29,7 @@ set CLK_LATENCY_F_NETWORK [expr $EXTCLK_PERIOD * 3 / 100.0]
 
 # CLOCK UNCERTAINTY 
 set CLK_UNCERTAINTY_SETUP [expr $EXTCLK_PERIOD * 1 / 100.0]
-set  CLK_UNCERTAINTY_HOLD [expr $EXTCLK_PERIOD * 0.5 / 100.0]
+set CLK_UNCERTAINTY_HOLD [expr $EXTCLK_PERIOD * 0.5 / 100.0]
 
 # INPUT AND OUTPUT DELAY
 set INPUT_DELAY [expr $EXTCLK_PERIOD * 1 / 100.0]
@@ -45,71 +46,36 @@ set MAX_FANOUT 15
 set MAX_LOAD 5
 
 # Clock definition
-#define_clock -name $EXTCLK -period 2000 -rise 0 -fall 50 [clock_ports]
-
-#create_clock -name "refclk" -add -period 8.0 -waveform {0.0 4.0} [get_ports refclk]
-create_clock -name $EXTCLK  -add -period $EXTCLK_PERIOD [clock_ports]
-
-# Clock Definition using SDC format 50% Duty Cycle
-#	create_clock -period 2000 -name my_clock [clock_ports]
-
-# Clock Definition using SDC format 50% Duty Cycle
-#	create_clock -period 2000 -name my_clock -waveform {1250 2000} [clock_ports] 
-
+create_clock -name $EXTCLK -add -period $EXTCLK_PERIOD [clock_ports]
 
 # slew attribute: Specifies the minimum rise, minimum fall, maximum rise, and
 # maximum fall slew values, respectively, in picoseconds.
-# The following sentence define the (min rise, min fall, max rise, max fall).
-
 set_clock_transition -rise -min $MINRISE [get_clocks $EXTCLK]
 set_clock_transition -rise -max $MAXRISE [get_clocks $EXTCLK]
 set_clock_transition -fall -min $MINFALL [get_clocks $EXTCLK]
 set_clock_transition -fall -max $MAXFALL [get_clocks $EXTCLK]
 
-
 # TO DEFINE CLOCK SOURCE AND NETWORK LATENCY IN GENUS
-# Define waveform settings for Source Latency
 set_clock_latency -rise -source $CLK_LATENCY_R_SOURCE -early -late $EXTCLK  	
 set_clock_latency -fall -source $CLK_LATENCY_F_SOURCE -early -late $EXTCLK  	
-
-# Define waveform settings for Network Latency
 set_clock_latency -rise $CLK_LATENCY_R_NETWORK $EXTCLK
 set_clock_latency -fall $CLK_LATENCY_F_NETWORK $EXTCLK
 
-
 # CLOCK UNCERTAINTY
 set_clock_uncertainty -setup $CLK_UNCERTAINTY_SETUP [get_clocks $EXTCLK]
-set_clock_uncertainty -hold  $CLK_UNCERTAINTY_HOLD [get_clocks $EXTCLK]
+set_clock_uncertainty -hold $CLK_UNCERTAINTY_HOLD [get_clocks $EXTCLK]
 
-# Input delay definition: This is the delay coming from outside the design
-# for this design it's defined at 10% the period of the clock.
-## external_delay -clock [find / -clock 500MHz_CLK] -input 200 -name IDelay [find /des* -port ports_in/*]
-## SDC FORMAT
+# Input delay definition
 set_input_delay -clock [get_clocks $EXTCLK] -add_delay $INPUT_DELAY -name I_DELAY [get_ports -filter "(direction == in || direction == inout) && name != sysclk"]
 
-
-# Output delay definition: This is the delay going outside the design
-# for this design it's defined at 10% the period of the clock.
-##external_delay -clock [find / -clock 500MHz_CLK] -output 200 -name ODelay [find /des* -port ports_out/*]
-## SDC FORMAT
+# Output delay definition
 set_output_delay -clock [get_clocks $EXTCLK] -add_delay $OUTPUT_DELAY -name O_DELAY [get_ports -filter "direction == out || direction == inout"]
 
 # Driving cell definition
-## BUFx2 is a buffer of 2 drive strength of the slow_vdd1v0_basicCells library
-#set_db external_driver [find [find / -libcell BUFX2] -libpin Y] { /designs/bwco/ports_in/* }
+set_driving_cell -lib_cell BUFX12 [get_ports { poc_pad clear_pad}]
 
-# does not is applied [get_db ports {X Y A B cin nrst}]
-#set_driving_cell -lib_cell BUFX2 [get_db ports {X Y A B cin nrst}]
-# Genus tested
-set_driving_cell -lib_cell BUFX12 [get_ports { poc_pad clear_pad io_pad[*]}]
-
-### SDC FORMAT
 # ENVIRONMENTAL CONSTRAINTS 
 set_max_capacitance $MAX_CAP [all_outputs]
-
-##set_max_fanout 5  [get_ports {SUM sum_struct}]
 set_max_fanout $MAX_FANOUT [current_design]
-
-# Alternative to external_pin_cap
 set_load $MAX_LOAD -pin_load [get_ports { p_out[*] io_pad[*] }]
 

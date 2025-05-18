@@ -1,0 +1,3736 @@
+{
+ "filetype": "conformal-table",
+ "data": [
+  {
+   "Object": "/mcs4_core_clockgen_clk1_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clk1_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_clockgen_clk2_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clk2_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_clockgen_clockdiv_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clockdiv_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_clockgen_clockdiv_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clockdiv_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_clockgen_clockdiv_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clockdiv_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_clockgen_clockdiv_reg[4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clockdiv_reg[4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_out_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_out_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_out_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_out_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_out_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_out_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_cy_1_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/cy_1_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_cy_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/cy_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0870_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0870_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0871_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0871_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0872_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0872_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0873_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0873_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0887_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0887_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0889_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0889_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0891_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0891_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0893_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0893_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_tmp_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/tmp_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_tmp_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/tmp_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_tmp_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/tmp_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_tmp_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/tmp_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0360_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0360_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0362_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0362_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0380_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0380_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0397_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0397_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0405_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0405_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0414_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0414_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0425_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0425_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0433_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0433_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0797_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0797_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0801_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0801_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0805_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0805_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opa_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opa_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opa_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opa_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opa_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opa_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opr_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opr_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opr_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opr_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opr_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opr_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opr_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opr_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_ptr_0_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_ptr_0/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_ptr_0_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_ptr_0/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_ptr_1_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_ptr_1/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_ptr_1_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_ptr_1/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_rfsh_0_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_rfsh_0/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_rfsh_0_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_rfsh_0/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_rfsh_1_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_rfsh_1/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_addr_rfsh_1_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/addr_rfsh_1/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_carry_in_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/carry_in_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_carry_out_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/carry_out_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][8]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][8]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][9]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][9]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][10]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][10]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[0][11]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[0][11]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][8]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][8]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][9]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][9]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][10]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][10]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[1][11]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[1][11]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][8]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][8]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][9]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][9]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][10]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][10]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[2][11]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[2][11]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][8]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][8]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][9]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][9]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][10]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][10]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_array_reg[3][11]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_array_reg[3][11]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[8]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[8]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[9]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[9]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[10]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[10]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_dram_temp_reg[11]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/dram_temp_reg[11]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_incr_in_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/incr_in_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_incr_in_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/incr_in_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_incr_in_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/incr_in_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_incr_in_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/incr_in_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_n0374_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/n0374_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_n0384_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/n0384_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_n0416_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/n0416_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_n0438_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/n0438_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_n0517_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/n0517_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_din_n_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/din_n_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_din_n_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/din_n_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_din_n_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/din_n_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_din_n_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/din_n_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[0][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[0][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[1][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[1][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[2][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[2][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[3][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[3][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[4][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[4][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[5][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[5][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[6][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[6][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_array_reg[7][7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_array_reg[7][7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_dram_temp_reg[7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/dram_temp_reg[7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_n0592_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/n0592_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_n0615_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/n0615_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_reg_rfsh_0_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/reg_rfsh_0/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_reg_rfsh_0_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/reg_rfsh_0/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_reg_rfsh_1_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/reg_rfsh_1/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_reg_rfsh_1_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/reg_rfsh_1/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_reg_rfsh_2_master_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/reg_rfsh_2/master_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_reg_rfsh_2_slave_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/reg_rfsh_2/slave_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_data_o_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/data_o_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_n0278_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/n0278_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_n0685_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/n0685_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_n0699_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/n0699_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_n0707_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/n0707_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_a11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/a11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_a21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/a21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_a31_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/a31_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_m11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/m11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_m21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/m21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_sync_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/sync_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_x11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/x11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_x21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/x21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_x22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/x22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_x31_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/x31_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_char_num_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/char_num_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_char_num_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/char_num_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_opa_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/opa_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_opa_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/opa_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_opa_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/opa_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_opa_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/opa_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_oport_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/oport_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[0][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[0][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[1][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[1][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[2][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[2][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[3][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[3][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[4][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[4][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[5][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[5][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[6][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[6][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[7][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[7][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[8][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[8][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[9][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[9][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[10][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[10][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[11][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[11][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[12][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[12][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[13][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[13][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[14][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[14][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[15][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[15][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[16][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[16][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[17][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[17][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[18][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[18][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram0_ram_array_reg[19][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram0/ram_array_reg[19][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[0][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[0][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[1][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[1][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[2][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[2][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[3][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[3][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[4][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[4][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[5][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[5][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[6][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[6][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[7][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[7][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[8][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[8][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[9][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[9][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[10][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[10][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[11][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[11][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[12][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[12][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[13][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[13][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[14][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[14][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[15][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[15][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[16][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[16][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[17][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[17][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[18][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[18][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram1_ram_array_reg[19][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram1/ram_array_reg[19][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[0][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[0][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[1][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[1][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[2][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[2][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[3][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[3][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[4][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[4][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[5][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[5][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[6][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[6][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[7][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[7][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[8][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[8][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[9][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[9][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[10][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[10][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[11][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[11][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[12][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[12][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[13][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[13][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[14][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[14][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[15][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[15][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[16][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[16][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[17][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[17][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[18][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[18][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram2_ram_array_reg[19][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram2/ram_array_reg[19][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[0][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[0][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[1][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[1][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[2][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[2][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[3][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[3][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[4][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[4][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[5][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[5][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[6][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[6][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[7][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[7][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[8][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[8][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[9][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[9][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[10][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[10][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[11][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[11][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[12][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[12][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[13][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[13][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[14][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[14][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[15][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[15][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[16][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[16][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[17][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[17][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[18][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[18][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram3_ram_array_reg[19][0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram3/ram_array_reg[19][0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_ram_sel_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/ram_sel_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_addr_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_addr_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_addr_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_addr_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_addr_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_addr_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_addr_reg[4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_addr_reg[4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_next_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_next_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_next_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_next_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_next_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_next_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_next_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_next_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_next_reg[4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_next_reg[4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_a11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/a11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_a12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/a12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_a21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/a21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_a22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/a22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_a31_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/a31_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_a32_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/a32_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_m11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/m11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_m12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/m12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_m21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/m21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_x11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/x11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_x12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/x12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_x21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/x21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_x31_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/x31_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_x32_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/x32_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_data_out_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/data_out_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_io_out_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/io_out_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_io_out_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/io_out_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_io_out_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/io_out_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_io_out_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/io_out_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_n0135_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/n0135_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_n0161_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/n0161_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_srcff_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/srcff_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_a11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/a11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_a21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/a21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_a22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/a22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_a31_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/a31_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_a32_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/a32_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_m11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/m11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_m12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/m12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_m21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/m21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_m22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/m22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_x11_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/x11_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_x12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/x12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_x21_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/x21_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_x22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/x22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_chipsel_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/chipsel_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_data_out_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/data_out_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_extbusdrive_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/extbusdrive_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_io_out_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/io_out_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_io_out_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/io_out_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_io_out_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/io_out_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_io_out_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/io_out_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_n0135_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/n0135_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_n0161_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/n0161_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_1_srcff_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_1/srcff_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_cp_delay_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/cp_delay_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_cp_delay_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/cp_delay_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_cp_delay_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/cp_delay_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_cp_delayed_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/cp_delayed_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[4]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[4]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[5]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[5]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[6]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[6]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[7]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[7]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[8]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[8]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_shifter_reg[9]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/shifter_reg[9]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_char_num_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/char_num_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_char_num_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/char_num_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_reg_num_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/reg_num_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0550_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0550_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_acc_out_reg[3]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/acc_out_reg[3]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_src_ram_sel_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/src_ram_sel_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_clockgen_clockdiv_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/clockgen/clockdiv_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_row_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/row_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_x22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/x22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_rom_0_timing_recovery_a12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/rom_0/timing_recovery/a12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_shiftreg_cp_delay_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/shiftreg/cp_delay_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_L_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/L_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_reg_num_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/reg_num_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_row_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/row_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_a32_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/a32_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_a12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/a12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_timing_recovery_m22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/timing_recovery/m22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_n0343_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/n0343_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0749_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0749_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0750_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0750_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_alu_board_n0751_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/alu_board/n0751_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_io_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/io_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_row_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/row_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_ram_0_rfsh_addr_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/ram_0/rfsh_addr_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_ip_board_row_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/ip_board/row_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_a22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/a22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_m22_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/m22_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_sp_board_row_reg[2]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/sp_board/row_reg[2]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_poc_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/poc_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_id_board_opa_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/id_board/opa_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_x32_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/x32_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_x12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/x12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core_i4004_tio_board_timing_generator_m12_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/mcs4_core/i4004/tio_board/timing_generator/m12_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  }
+ ],
+ "cols": [
+  {
+   "key": "Object"
+  },
+  {
+   "key": "Type"
+  },
+  {
+   "key": "Mapping"
+  },
+  {
+   "key": "Phase"
+  },
+  {
+   "key": "User Setup object phase inversion"
+  },
+  {
+   "key": "User Setup mapped object phase inversion"
+  }
+ ],
+ "sort": [
+  "-highlite"
+ ]
+}

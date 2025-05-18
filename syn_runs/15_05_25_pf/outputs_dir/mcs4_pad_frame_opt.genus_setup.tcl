@@ -2,7 +2,7 @@
 #
 # Genus(TM) Synthesis Solution setup file
 # Created by Genus(TM) Synthesis Solution 20.11-s111_1
-#   on 05/15/2025 04:28:29
+#   on 05/15/2025 06:31:54
 #
 # This file can only be run in Genus Common UI mode.
 #
@@ -49,13 +49,13 @@ set _slk_ [::legacy::get_attribute slack design:mcs4_pad_frame]
 if {[regexp {^-?[0-9.]+$} $_slk_]} {
   set _slk_ [format %.1f $_slk_]
 }
-if {$_slk_ != "inf"} {
-   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden slack: inf,  current slack: $_slk_"
+if {$_slk_ != "41460.2"} {
+   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden slack: 41460.2,  current slack: $_slk_"
 }
 unset _slk_
 # multi-mode slack
-if {"[string_representation [::legacy::get_attribute slack_by_mode design:mcs4_pad_frame]]" != "{{mode:mcs4_pad_frame/view_mcs4_slow inf} {mode:mcs4_pad_frame/view_mcs4_fast inf}}"} {
-   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden slack_by_mode: {{mode:mcs4_pad_frame/view_mcs4_slow inf} {mode:mcs4_pad_frame/view_mcs4_fast inf}}  current slack_by_mode: [string_representation [::legacy::get_attribute slack_by_mode design:mcs4_pad_frame]]"
+if {"[string_representation [::legacy::get_attribute slack_by_mode design:mcs4_pad_frame]]" != "{{mode:mcs4_pad_frame/view_mcs4_slow 41460.2} {mode:mcs4_pad_frame/view_mcs4_fast 56934.8}}"} {
+   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden slack_by_mode: {{mode:mcs4_pad_frame/view_mcs4_slow 41460.2} {mode:mcs4_pad_frame/view_mcs4_fast 56934.8}}  current slack_by_mode: [string_representation [::legacy::get_attribute slack_by_mode design:mcs4_pad_frame]]"
 }
 # tns
 set _tns_ [::legacy::get_attribute tns design:mcs4_pad_frame]
@@ -71,8 +71,8 @@ set _cell_area_ [::legacy::get_attribute cell_area design:mcs4_pad_frame]
 if {[regexp {^-?[0-9.]+$} $_cell_area_]} {
   set _cell_area_ [format %.0f $_cell_area_]
 }
-if {$_cell_area_ != "8413"} {
-   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden cell area: 8413,  current cell area: $_cell_area_"
+if {$_cell_area_ != "382162"} {
+   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden cell area: 382162,  current cell area: $_cell_area_"
 }
 unset _cell_area_
 # net area
@@ -80,8 +80,8 @@ set _net_area_ [::legacy::get_attribute net_area design:mcs4_pad_frame]
 if {[regexp {^-?[0-9.]+$} $_net_area_]} {
   set _net_area_ [format %.0f $_net_area_]
 }
-if {$_net_area_ != "2702"} {
-   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden net area: 2702,  current net area: $_net_area_"
+if {$_net_area_ != "2556"} {
+   mesg_send [::legacy::find -message /messages/PHYS/PHYS-92] "golden net area: 2556,  current net area: $_net_area_"
 }
 unset _net_area_
 # library domain count

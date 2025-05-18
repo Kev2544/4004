@@ -1,0 +1,69 @@
+
+
+Working Directory = /users/iteso/iteso-s10043/designs/mcs4/4004/syn_runs/15_05_25_v7
+QoS Summary for mcs4_pad_frame
+================================================================================
+Metric                          generic         map             syn_opt        
+================================================================================
+
+View : view_mcs4_slow
+Slack (ps):                    41,663          41,604          41,460
+  R2R (ps):                    46,987          44,265          44,071
+  I2R (ps):                    41,663          41,604          41,460
+  R2O (ps):                    47,695          46,396          46,403
+  I2O (ps):                  no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                         0               0               0
+  I2R (ps):                         0               0               0
+  R2O (ps):                         0               0               0
+  I2O (ps):                  no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+
+View : view_mcs4_fast
+Slack (ps):                    56,943          56,955          56,934
+  R2R (ps):                    58,934          58,420          58,388
+  I2R (ps):                    56,943          56,955          56,934
+  R2O (ps):                    57,799          57,456          57,479
+  I2O (ps):                  no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                         0               0               0
+  I2R (ps):                         0               0               0
+  R2O (ps):                         0               0               0
+  I2O (ps):                  no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+
+Cell Area:                    374,425         382,047         382,208
+Total Cell Area:              374,425         382,047         382,208
+Leaf Instances:                 3,497           1,917           1,970
+Total Instances:                3,497           1,917           1,970
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:00:50        00:01:26        00:00:18
+Real Runtime (h:m:s):        00:00:58        00:01:02        00:00:18
+CPU  Elapsed (h:m:s):        00:00:57        00:02:23        00:02:40
+Real Elapsed (h:m:s):        00:01:00        00:02:02        00:02:21
+Memory (MB):                  1047.99         1046.83         1051.67
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:02:20
+Total Memory (MB):     1051.67
+Executable Version:    20.11-s111_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+

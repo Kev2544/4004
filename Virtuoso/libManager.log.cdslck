@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kevyn.carrillo@iteso.mx
+HostName                       ip-10-16-10-154.rdius.us
+ProcessIdentifier              22287
+ProcessCreationTime_UTC        1747362884
+ProcessCreationTime_Readable   Thu May 15 22:34:44 2025 EDT
+AppIdentifier                  /CMC/tools/cadence/IC23.10.090_lnx86/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /users/iteso/iteso-s10043/designs/mcs4/4004/Virtuoso/libManager.log
+TimeEditLocked                 Thu May 15 22:34:59 2025 EDT

@@ -94,10 +94,10 @@ module i4001 #(
 	wire rom_half = rom_addr_int[0];  // 0 = mitad alta (bits 7:4), 1 = mitad baja (bits 3:0) //
 	wire rom_active = sync_pad && cmrom_pad && (rom_addr_int[11:8] == ROM_NUMBER); //
 
-	assign data_out = rom_active 
-                ? (rom_half ? rom_data[3:0]   // baja
-                            : rom_data[7:4])  // alta
-                : 4'b0000;
+//	assign data_out = rom_active 
+//                ? (rom_half ? rom_data[3:0]   // baja
+//                            : rom_data[7:4])  // alta
+//                : 4'b0000;
 
 	assign data_dir = rom_active;
 	// -------------------

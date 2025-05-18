@@ -60,8 +60,8 @@ puts "  - Calculated Core Width: ${CORE_WIDTH}"
 puts "  - Calculated Core Height: ${CORE_HEIGHT}"
 
 # Create Output Directories
-file mkdir -p ${OUTPUT_DIR}/reports
-file mkdir -p ${OUTPUT_DIR}/gds
+file mkdir  ${OUTPUT_DIR}/reports
+file mkdir  ${OUTPUT_DIR}/gds
 
 # Design Setup
 puts "\n--- Design Setup ---"
@@ -69,16 +69,14 @@ setDesignMode -process ${PROCESS_MODE}
 
 # Floorplan Definition
 puts "\n--- Floorplan ---"
-#floorPlan -site ${CORE_SITE} -r [list [expr {1.0 / $ASPECT_RATIO}] ${ESTIMATED_ROW_DENSITY} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN}] -adjustToSite
 
-#floorPlan -site ${CORE_SITE} -r [list 170 170 ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN} ${CORE_MARGIN}] -adjustToSite
-
-floorPlan -site ${CORE_SITE} -s 170.0 170.05 5.6 5.6 5.6 5.6 -adjustToSite
+floorPlan -site CoreSite -r 0.932134096484 0.699918 18.0 18.0 20.01 18.21 -adjustToSite 
 
 suspend
 
-#floorPlan -site ${CORE_SITE} -r 0 0 ${CORE_WIDTH} ${CORE_HEIGHT} -adjustToSite
 fit
+
+setPlaceMode -place_global_ignore_scan true
 
 puts "  - Total Cell Area: ${TOTAL_CELL_AREA}"
 puts "  - Target Utilization: ${TARGET_UTILIZATION}"
@@ -91,9 +89,12 @@ puts "  - Calculated Core Height: ${CORE_HEIGHT}"
 puts "\n--- Power Grid ---"
 clearGlobalNets
 globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {} -verbose
+globalNetConnect VDD -type pgpin -pin VDD -instanceBasename * -hierarchicalInstance {} -verbose
 globalNetConnect VSS -type pgpin -pin VSS -instanceBasename * -hierarchicalInstance {} -verbose
 globalNetConnect VDD -type tiehi -pin VDD -instanceBasename * -hierarchicalInstance {} -verbose
 globalNetConnect VSS -type tielo -pin VSS -instanceBasename * -hierarchicalInstance {} -verbose
+
+setEndCapMode -create_rows true
 
 # Power Rings
 setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal11 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin { standardcell } -skip_via_on_wire_shape { noshape }
@@ -102,16 +103,28 @@ fit
 
 # Power Stripes
 setSrouteMode -viaConnectToShape { noshape }
-sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal11(11) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal11(11) } -nets ${POWER_NETS} -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal11(11) }
+sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal11(11) } \
+-blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal11(11) } -nets ${POWER_NETS} -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal11(11) }
 
-setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal11 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring block_ring } -skip_via_on_pin { standardcell } -skip_via_on_wire_shape { noshape }
-addStripe -nets ${POWER_NETS} -layer ${POWER_STRIPE_LAYER} -direction vertical -width 0.5 -spacing 0.3 -number_of_sets 1 -start_from left -start_offset 9 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false \
+-extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal11 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true \
+-allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
 
+addStripe -nets ${POWER_NETS} -layer Metal6 -direction vertical -width 2 -spacing 1 -number_of_sets 2 -start_from left -start_offset 60 -stop_offset 60 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal11 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal11 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
 
 # Placement
+
+suspend
+
+
 puts "\n--- Placement ---"
-setPlaceMode -congEffort high -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 1 -checkRoute 1 -honorSoftBlockage true -swapEEQ 0
+setPlaceMode -congEffort high -place_global_uniform_density true -timingDriven 1 -clkGateAware 1 
+-powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 1 
+-checkRoute 1 -honorSoftBlockage true -swapEEQ 0
+
 setPlaceMode -fp false
+setPlaceMode -place_global_ignore_scan true
+
 place_design
 
 suspend
@@ -206,6 +219,9 @@ timeDesign -postRoute -prefix postRoute_hold -hold
 
 
 suspend
+
+optDesign -postRoute -hold
+
 
 # GDS Output (Adjust paths and libraries as needed)
 puts "\n--- GDS Output ---"

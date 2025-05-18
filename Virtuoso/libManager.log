@@ -1,0 +1,57 @@
+\o Program:		@(#)$CDS: libManager version 23.1 - CAT38 08/20/2024 18:26 (cpgsrv14) $
+\o Sub version:		sub-version  s091 
+\o Arguments:		-unmapped -mpssession virtuoso22085 -mpshost ip-10-16-10-154.rdius.us -masterPID 22085 -ADVM 
+\o Working Directory:	ip-10-16-10-154.rdius.us:/users/iteso/iteso-s10043/designs/mcs4/4004/Virtuoso
+\o 64-bit offsets
+\o Qt version: 		5.15.9
+\o MPS virtuoso types registered: 68
+\o changeWorkingDir("/users/iteso/iteso-s10043/designs/mcs4/4004/Virtuoso") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Session hidden cells enabled.
+\o Log file is "/users/iteso/iteso-s10043/designs/mcs4/4004/Virtuoso/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(38 66 602 491))
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(76 28 507 559))
+\a NewLibShell->newLibNameText->value = "mcs4_lib"
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "mcs4_lib" at /users/iteso/iteso-s10043/designs/mcs4/4004/Virtuoso/mcs4_lib.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(184 168 290 133))
+\a nrResizeWindow(NewLibShell list(76 -9 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(344 44 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "mcs4_lib"
+\a cdsLibManager->libLineEdit->value = "mcs4_lib"
+\a cdsLibManager->cellListBox->value = "mcs4_pad_frame"
+\a cdsLibManager->cellLineEdit->value = "mcs4_pad_frame"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(344 40 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(341 39 602 491))
+\a nrResizeWindow(cdsLibManager list(343 39 602 491))
+\a nrResizeWindow(cdsLibManager list(301 39 602 491))

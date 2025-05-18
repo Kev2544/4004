@@ -1,0 +1,1713 @@
+{
+ "filetype": "conformal-table",
+ "data": [
+  {
+   "Object": "/mcs4_core/rom_0/rom_out_reg[0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_0/rom_out_reg[1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_0/rom_out_reg[2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_0/rom_out_reg[3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/rom_out_reg[0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/rom_out_reg[1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/rom_out_reg[2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/rom_out_reg[3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/i4004/tio_board/n0432_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "1",
+   "LEC constant": "1",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[20][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[20][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[20][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[20][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[21][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[21][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[21][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[21][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[22][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[22][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[22][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[22][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[23][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[23][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[23][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[23][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[28][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[28][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[28][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[28][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[29][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[29][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[29][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[29][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[30][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[30][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[30][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[30][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[31][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[31][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[31][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[31][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[20][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[20][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[20][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[20][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[21][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[21][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[21][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[21][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[22][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[22][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[22][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[22][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[23][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[23][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[23][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[23][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[28][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[28][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[28][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[28][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[29][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[29][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[29][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[29][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[30][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[30][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[30][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[30][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[31][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[31][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[31][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[31][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[22][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[22][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[22][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[22][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[23][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[23][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[23][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[23][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[30][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[30][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[30][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[30][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[31][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[31][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[31][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[31][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[21][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[21][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[21][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[21][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[22][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[22][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[22][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[22][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[23][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[23][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[23][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[23][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[28][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[28][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[28][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[28][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[29][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[29][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[29][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[29][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[30][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[30][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[30][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[30][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[31][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[31][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[31][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[31][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[20][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[20][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[20][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[20][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[21][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[21][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[21][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[21][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[24][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[24][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[24][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[24][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[25][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[25][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[25][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[25][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[26][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[26][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[26][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[26][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[27][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[27][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[27][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[27][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[28][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[28][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[28][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[28][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[29][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[29][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[29][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram2/ram_array_reg[29][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[20][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[20][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[20][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[20][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[24][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[24][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[24][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[24][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[25][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[25][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[25][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[25][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[26][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[26][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[26][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[26][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[27][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[27][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[27][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram3/ram_array_reg[27][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[25][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[25][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[25][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[25][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[26][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[26][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[26][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[26][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[27][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[27][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[27][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[27][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[24][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[24][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[24][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[24][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[25][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[25][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[25][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[25][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[26][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[26][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[26][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[26][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[27][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[27][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[27][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram1/ram_array_reg[27][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[24][0]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[24][1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[24][2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/ram_0/ram0/ram_array_reg[24][3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup constant": "0",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VSS_IOR",
+   "Type": "BUS",
+   "Design": "G",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VDD_IOR",
+   "Type": "BUS",
+   "Design": "G",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VSS",
+   "Type": "BUS",
+   "Design": "G",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VDD",
+   "Type": "BUS",
+   "Design": "G",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VSS_IOR",
+   "Type": "BUS",
+   "Design": "R",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VDD_IOR",
+   "Type": "BUS",
+   "Design": "R",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VSS",
+   "Type": "BUS",
+   "Design": "R",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  },
+  {
+   "Object": "/VDD",
+   "Type": "BUS",
+   "Design": "R",
+   "User Setup constant": "",
+   "LEC constant": "0",
+   "highlite": 0
+  }
+ ],
+ "cols": [
+  {
+   "key": "Object"
+  },
+  {
+   "key": "Type"
+  },
+  {
+   "key": "Design"
+  },
+  {
+   "key": "User Setup constant"
+  },
+  {
+   "key": "LEC constant"
+  }
+ ],
+ "sort": [
+  "-highlite"
+ ]
+}

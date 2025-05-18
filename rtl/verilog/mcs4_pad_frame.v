@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-`default_nettype none
 ////////////////////////////////////////////////////////////////////////
 //
 // MCS-4 project pad frame 
@@ -7,8 +6,7 @@
 ////////////////////////////////////////////////////////////////////////
 
 module mcs4_pad_frame(
-    inout			VDD0,
-    inout			VDD1,
+    inout			VDD,
     inout			VSS,
     inout			VDD_IOR,
     inout			VSS_IOR,
@@ -60,8 +58,8 @@ module mcs4_pad_frame(
 	PADDO	pad_io_pad7	(	.A(io_pad_w[7]), .PAD(io_pad[7])	);		
 	
 	//core pwr pads
-	PADVDD	pad_vdd0	(	.VDD(VDD0)	);
-	PADVDD	pad_vdd1	(	.VDD(VDD1)	);
+	PADVDD	pad_vdd0	(	.VDD(VDD)	);
+	PADVDD	pad_vdd1	(	.VDD(VDD)	);
 	PADVSS	pad_vss	(	.VSS(VSS)	);
 	
 	//io ring pwr pads

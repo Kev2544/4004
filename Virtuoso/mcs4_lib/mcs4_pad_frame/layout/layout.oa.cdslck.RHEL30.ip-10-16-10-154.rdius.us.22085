@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kevyn.carrillo@iteso.mx
+HostName                       ip-10-16-10-154.rdius.us
+ProcessIdentifier              22085
+ProcessCreationTime_UTC        1747362883
+ProcessCreationTime_Readable   Thu May 15 22:34:43 2025 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /users/iteso/iteso-s10043/designs/mcs4/4004/Virtuoso/mcs4_lib/mcs4_pad_frame/layout/layout.oa.cdslck
+TimeEditLocked                 Thu May 15 22:41:09 2025 EDT

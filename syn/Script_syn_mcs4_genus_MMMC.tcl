@@ -23,11 +23,11 @@ puts "Hostname : [info hostname]"
 set DESIGN mcs4_pad_frame
 
 # Library Paths
-set Timing_Libs_Path /CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/timing/
-set LEF_Libs_Path /CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/lef/
+set Timing_Libs_Path {/CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/timing/ /CMC/kits/cadence/GPDK045/giolib045_v3.3/lib/}
+set LEF_Libs_Path {/CMC/kits/cadence/GPDK045/gsclib045_all_v4.4/gsclib045/lef/ /CMC/kits/cadence/GPDK045/giolib045_v3.3/lef}
 
 # LEF Library List
-set LEF_List {gsclib045_tech.lef gsclib045_macro.lef gsclib045_multibitsDFF.lef}
+set LEF_List {gsclib045_tech.lef gsclib045_macro.lef gsclib045_multibitsDFF.lef giolib045.lef}
 
 # Synthesis Effort Levels
 set GEN_EFF medium
@@ -84,6 +84,8 @@ puts "The design has been read."
 # Elaborate the Design
 elaborate $DESIGN
 puts "The design has been elaborated."
+
+suspend
 
 # Initialize Design for MMMC
 init_design
@@ -162,6 +164,8 @@ puts "Generic snapshot written to $_REPORTS_PATH/generic"
 report_summary -directory $_REPORTS_PATH
 puts "Summary report generated in $_REPORTS_PATH"
 # suspend # Consider removing 'suspend' for automated flow
+suspend
+
 
 ##############################################################################
 ## 7. Mapping Synthesis
@@ -191,6 +195,7 @@ puts "Mapped datapath report (commented out)."
 write_do_lec -revised_design fv_map -logfile ${_LOG_PATH}/rtl2intermediate.lec.log > ${_OUTPUTS_PATH}/rtl2intermediate.lec.do
 puts "LEC DO script (RTL vs Intermediate) written to ${_OUTPUTS_PATH}/rtl2intermediate.lec.do"
 
+suspend
 
 ##############################################################################
 ## 8. Netlist Optimization
@@ -228,7 +233,7 @@ write_do_lec -golden_design fv_map -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.
 puts "LEC DO script (Intermediate vs Final) written to ${_OUTPUTS_PATH}/intermediate2final.lec.do"
 
 # Write DO Script for LEC (RTL vs Final) - Uncomment if needed
-# write_do_lec -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.v -logfile ${_LOG_PATH}/rtl2final.lec.log > ${_OUTPUTS_PATH}/rtl2final.lec.do
+write_do_lec -revised_design ${_OUTPUTS_PATH}/${DESIGN}_m.v -logfile ${_LOG_PATH}/rtl2final.lec.log > ${_OUTPUTS_PATH}/rtl2final.lec.do
 puts "LEC DO script (RTL vs Final) written (if uncommented)."
 
 

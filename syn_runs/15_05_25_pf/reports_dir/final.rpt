@@ -7,39 +7,39 @@ Metric                          generic         map             syn_opt
 ================================================================================
 
 View : view_mcs4_slow
-Slack (ps):                       inf             inf             inf
-  R2R (ps):                  no_value        no_value        no_value
-  I2R (ps):                  no_value        no_value        no_value
-  R2O (ps):                  no_value        no_value        no_value
+Slack (ps):                    41,663          41,604          41,460
+  R2R (ps):                    46,987          44,252          44,059
+  I2R (ps):                    41,663          41,604          41,460
+  R2O (ps):                    47,695          46,403          46,403
   I2O (ps):                  no_value        no_value        no_value
   CG  (ps):                  no_value        no_value        no_value
 TNS (ps):                           0               0               0
-  R2R (ps):                  no_value        no_value        no_value
-  I2R (ps):                  no_value        no_value        no_value
-  R2O (ps):                  no_value        no_value        no_value
+  R2R (ps):                         0               0               0
+  I2R (ps):                         0               0               0
+  R2O (ps):                         0               0               0
   I2O (ps):                  no_value        no_value        no_value
   CG  (ps):                  no_value        no_value        no_value
 Failing Paths:                      0               0               0
 
 View : view_mcs4_fast
-Slack (ps):                       inf             inf             inf
-  R2R (ps):                  no_value        no_value        no_value
-  I2R (ps):                  no_value        no_value        no_value
-  R2O (ps):                  no_value        no_value        no_value
+Slack (ps):                    56,943          56,956          56,935
+  R2R (ps):                    58,934          58,417          58,386
+  I2R (ps):                    56,943          56,956          56,935
+  R2O (ps):                    57,799          57,479          57,479
   I2O (ps):                  no_value        no_value        no_value
   CG  (ps):                  no_value        no_value        no_value
 TNS (ps):                           0               0               0
-  R2R (ps):                  no_value        no_value        no_value
-  I2R (ps):                  no_value        no_value        no_value
-  R2O (ps):                  no_value        no_value        no_value
+  R2R (ps):                         0               0               0
+  I2R (ps):                         0               0               0
+  R2O (ps):                         0               0               0
   I2O (ps):                  no_value        no_value        no_value
   CG  (ps):                  no_value        no_value        no_value
 Failing Paths:                      0               0               0
 
-Cell Area:                         52           8,197           8,413
-Total Cell Area:                   52           8,197           8,413
-Leaf Instances:                 3,718           1,937           2,003
-Total Instances:                3,718           1,937           2,003
+Cell Area:                    374,425         381,988         382,162
+Total Cell Area:              374,425         381,988         382,162
+Leaf Instances:                 3,472           1,926           1,976
+Total Instances:                3,472           1,926           1,976
 Utilization (%):                 0.00            0.00            0.00
 Tot. Net Length (um):        no_value        no_value        no_value
 Avg. Net Length (um):        no_value        no_value        no_value
@@ -50,17 +50,17 @@ Norm Cong Hotspot Area:
   Max Cong:                  no_value        no_value        no_value
   Tot Cong:                  no_value        no_value        no_value
 ================================================================================
-CPU  Runtime (h:m:s):        00:01:18        00:02:52        00:00:26
-Real Runtime (h:m:s):        00:04:21        00:03:13        00:00:39
-CPU  Elapsed (h:m:s):        00:01:26        00:04:18        00:04:45
-Real Elapsed (h:m:s):        00:04:26        00:07:38        00:08:17
-Memory (MB):                  1030.10         1035.12         1035.14
+CPU  Runtime (h:m:s):        00:01:17        00:01:59        00:00:25
+Real Runtime (h:m:s):        00:03:21        00:01:47        00:00:31
+CPU  Elapsed (h:m:s):        00:01:26        00:03:25        00:03:49
+Real Elapsed (h:m:s):        00:03:24        00:05:12        00:05:42
+Memory (MB):                  1226.31         1226.15         1229.99
 ================================================================================
 ================================================================================
 Flow Settings:
 ================================================================================
-Total Runtime (h:m:s): 00:08:17
-Total Memory (MB):     1035.14
+Total Runtime (h:m:s): 00:05:42
+Total Memory (MB):     1229.99
 Executable Version:    20.11-s111_1
 ================================================================================
 Total Cell Area =  Cell Area + Physical Cell Area

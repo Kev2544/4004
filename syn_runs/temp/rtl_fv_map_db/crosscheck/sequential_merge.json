@@ -1,0 +1,311 @@
+{
+ "filetype": "conformal-table",
+ "data": [
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[4]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[5]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[6]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store0/rom_data_reg[7]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store0/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[1]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[2]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[3]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[4]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[5]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[6]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_store1/rom_data_reg[7]",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "LEC representative": "/mcs4_core/rom_store1/rom_data_reg[0]",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/a11_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_a11_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/a11_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/a12_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_a12_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/a12_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/a21_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_a21_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/a21_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/a22_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_a22_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/a22_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/a31_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_a31_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/a31_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/a32_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_a32_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/a32_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/m11_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_m11_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/m11_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/m12_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_m12_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/m12_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/m21_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_m21_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/m21_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/m22_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_m22_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/m22_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/x11_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_x11_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/x11_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/x12_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_x12_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/x12_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/x21_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_x21_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/x21_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  },
+  {
+   "Object": "/mcs4_core/rom_1/timing_recovery/x22_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/mcs4_core/rom_0_timing_recovery_x22_reg",
+   "LEC representative": "/mcs4_core/rom_0/timing_recovery/x22_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  }
+ ],
+ "cols": [
+  {
+   "key": "Object"
+  },
+  {
+   "key": "Type"
+  },
+  {
+   "key": "Design"
+  },
+  {
+   "key": "User Setup representative"
+  },
+  {
+   "key": "LEC representative"
+  },
+  {
+   "key": "User Setup phase"
+  },
+  {
+   "key": "LEC phase"
+  }
+ ],
+ "sort": [
+  "-highlite"
+ ]
+}
